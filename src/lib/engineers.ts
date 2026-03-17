@@ -91,6 +91,248 @@ export const DIMENSION_META: Record<
   },
 };
 
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null;
+}
+
+function getOptionalNumber(value: unknown) {
+  return typeof value === "number" ? value : undefined;
+}
+
+function getOptionalString(value: unknown) {
+  if (typeof value !== "string") {
+    return undefined;
+  }
+
+  const trimmed = value.trim();
+  return trimmed ? trimmed : undefined;
+}
+
+function getOptionalStringArray(value: unknown) {
+  if (!Array.isArray(value)) {
+    return undefined;
+  }
+
+  const strings = value.filter(
+    (item): item is string => typeof item === "string" && item.trim().length > 0,
+  );
+  return strings.length > 0 ? strings : undefined;
+}
+
+function normalizeScore(score: unknown): DimensionScore | undefined {
+  if (!isRecord(score)) {
+    return undefined;
+  }
+
+  const normalized: DimensionScore = {
+    raw: getOptionalNumber(score.raw),
+    score: getOptionalNumber(score.score),
+    weighted_contribution:
+      getOptionalNumber(score.weighted_contribution) ??
+      getOptionalNumber(score.contribution),
+    rank: getOptionalNumber(score.rank),
+  };
+
+  return Object.values(normalized).some((value) => value !== undefined)
+    ? normalized
+    : undefined;
+}
+
+function mergeEngineers(
+  engineer: ImpactEngineer,
+  fallback?: ImpactEngineer,
+): ImpactEngineer {
+  if (!fallback) {
+    return engineer;
+  }
+
+  return {
+    ...fallback,
+    ...engineer,
+    shipping: engineer.shipping ?? fallback.shipping,
+    enablement: engineer.enablement ?? fallback.enablement,
+    complexity: engineer.complexity ?? fallback.complexity,
+    consistency: engineer.consistency ?? fallback.consistency,
+    stats: engineer.stats ?? fallback.stats,
+    why_it_matters: engineer.why_it_matters ?? fallback.why_it_matters,
+  };
+}
+
+function normalizeEngineer(candidate: unknown): ImpactEngineer | null {
+  if (!isRecord(candidate)) {
+    return null;
+  }
+
+  const identity = isRecord(candidate.identity) ? candidate.identity : candidate;
+  const ranking = isRecord(candidate.ranking) ? candidate.ranking : candidate;
+  const scores = isRecord(candidate.scores) ? candidate.scores : candidate;
+  const login = getOptionalString(identity.login) ?? getOptionalString(candidate.login);
+
+  if (!login) {
+    return null;
+  }
+
+  return {
+    login,
+    display_name:
+      getOptionalString(identity.display_name) ??
+      getOptionalString(candidate.display_name),
+    avatar_url:
+      getOptionalString(identity.avatar_url) ??
+      getOptionalString(candidate.avatar_url),
+    profile_url:
+      getOptionalString(identity.profile_url) ??
+      getOptionalString(candidate.profile_url),
+    rank:
+      getOptionalNumber(ranking.rank) ??
+      getOptionalNumber(candidate.rank) ??
+      getOptionalNumber(candidate.impact_rank),
+    impact_score:
+      getOptionalNumber(ranking.impact_score) ??
+      getOptionalNumber(candidate.impact_score),
+    why_it_matters: getOptionalStringArray(candidate.why_it_matters),
+    shipping: normalizeScore(scores.shipping),
+    enablement: normalizeScore(scores.enablement),
+    complexity: normalizeScore(scores.complexity),
+    consistency: normalizeScore(scores.consistency),
+    stats: isRecord(candidate.stats) ? (candidate.stats as EngineerStats) : undefined,
+  };
+}
+
+function normalizeLeaderboardEntry(
+  candidate: unknown,
+  key: DimensionKey,
+  contributors: Map<string, ImpactEngineer>,
+): ImpactEngineer | null {
+  const engineer = normalizeEngineer(candidate);
+  if (!engineer) {
+    return null;
+  }
+
+  const rawCandidate = candidate as Record<string, unknown>;
+  const normalized = {
+    ...engineer,
+    rank: engineer.rank ?? getOptionalNumber(rawCandidate.impact_rank),
+    impact_score:
+      engineer.impact_score ?? getOptionalNumber(rawCandidate.impact_score),
+  };
+  const explicitScore = normalizeScore({
+    raw: rawCandidate.dimension_raw,
+    score: rawCandidate.dimension_score,
+  });
+
+  if (!explicitScore) {
+    return mergeEngineers(normalized, contributors.get(engineer.login));
+  }
+
+  return mergeEngineers(
+    {
+      ...normalized,
+      [key]: {
+        ...contributors.get(engineer.login)?.[key],
+        ...normalized[key],
+        ...explicitScore,
+      },
+    },
+    contributors.get(engineer.login),
+  );
+}
+
+export function normalizeDataset(dataset: unknown): EngineerImpactDataset {
+  if (!isRecord(dataset)) {
+    return {};
+  }
+
+  const contributors = Array.isArray(dataset.contributors)
+    ? dataset.contributors
+        .map((engineer) => normalizeEngineer(engineer))
+        .filter((engineer): engineer is ImpactEngineer => engineer !== null)
+    : undefined;
+  const contributorMap = new Map(
+    (contributors ?? []).map((engineer) => [engineer.login, engineer]),
+  );
+  const leaders = Array.isArray(dataset.leaders)
+    ? dataset.leaders
+        .map((engineer) => normalizeEngineer(engineer))
+        .filter((engineer): engineer is ImpactEngineer => engineer !== null)
+        .map((engineer) => mergeEngineers(engineer, contributorMap.get(engineer.login)))
+    : undefined;
+  const rawLeaderboards = isRecord(dataset.leaderboards)
+    ? (dataset.leaderboards as Partial<Record<DimensionKey, unknown>>)
+    : undefined;
+  const leaderboards = rawLeaderboards
+    ? DIMENSION_ORDER.reduce<Partial<Record<DimensionKey, ImpactEngineer[]>>>(
+        (accumulator, key) => {
+          const entries = rawLeaderboards[key];
+          if (!Array.isArray(entries)) {
+            return accumulator;
+          }
+
+          const normalizedEntries = entries
+            .map((engineer) =>
+              normalizeLeaderboardEntry(engineer, key, contributorMap),
+            )
+            .filter((engineer): engineer is ImpactEngineer => engineer !== null);
+
+          if (normalizedEntries.length > 0) {
+            accumulator[key] = normalizedEntries;
+          }
+
+          return accumulator;
+        },
+        {},
+      )
+    : undefined;
+  const methodology = isRecord(dataset.methodology)
+    ? {
+        weights: isRecord(dataset.methodology.weights)
+          ? {
+              shipping: getOptionalNumber(dataset.methodology.weights.shipping),
+              enablement: getOptionalNumber(dataset.methodology.weights.enablement),
+              complexity: getOptionalNumber(dataset.methodology.weights.complexity),
+              consistency: getOptionalNumber(dataset.methodology.weights.consistency),
+            }
+          : undefined,
+        dimension_formulas: isRecord(dataset.methodology.dimension_formulas)
+          ? {
+              shipping: getOptionalString(
+                dataset.methodology.dimension_formulas.shipping,
+              ),
+              enablement: getOptionalString(
+                dataset.methodology.dimension_formulas.enablement,
+              ),
+              complexity: getOptionalString(
+                dataset.methodology.dimension_formulas.complexity,
+              ),
+              consistency: getOptionalString(
+                dataset.methodology.dimension_formulas.consistency,
+              ),
+            }
+          : undefined,
+        inclusion_rule: getOptionalString(dataset.methodology.inclusion_rule),
+        tie_breaker: getOptionalString(dataset.methodology.tie_breaker),
+      }
+    : undefined;
+
+  return {
+    generated_at: getOptionalString(dataset.generated_at),
+    repo: getOptionalString(dataset.repo),
+    window_days: getOptionalNumber(dataset.window_days),
+    window_start:
+      typeof dataset.window_start === "string" || dataset.window_start === null
+        ? dataset.window_start
+        : undefined,
+    window_end:
+      typeof dataset.window_end === "string" || dataset.window_end === null
+        ? dataset.window_end
+        : undefined,
+    methodology,
+    leaders,
+    leaderboards,
+    contributors,
+  };
+}
+
 export function validateDataset(dataset: unknown): string | null {
   if (!dataset || typeof dataset !== "object") {
     return "The static dataset could not be parsed.";
@@ -134,7 +376,7 @@ export function getStats(engineer: ImpactEngineer): EngineerStats {
 }
 
 export function getDisplayName(engineer: ImpactEngineer) {
-  return engineer.display_name || engineer.login;
+  return engineer.display_name?.trim() || engineer.login?.trim() || "Unknown engineer";
 }
 
 export function getInitials(engineer: ImpactEngineer) {

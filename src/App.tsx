@@ -9,6 +9,7 @@ import { Card } from "./components/ui/card";
 import {
   DIMENSION_ORDER,
   getWeights,
+  normalizeDataset,
   resolveLeaderboard,
   resolveLeaders,
   validateDataset,
@@ -16,7 +17,7 @@ import {
 import { formatShortDate, formatTimestamp } from "./lib/format";
 import type { EngineerImpactDataset } from "./types/engineers";
 
-const dataset = engineersData as EngineerImpactDataset;
+const dataset = normalizeDataset(engineersData);
 const THEME_STORAGE_KEY = "engineer-impact-theme";
 
 type Theme = "light" | "dark";

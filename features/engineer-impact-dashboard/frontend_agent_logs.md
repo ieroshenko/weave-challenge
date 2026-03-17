@@ -1,3 +1,18 @@
+## 2026-03-17 02:58:08 PDT
+Feature: engineer-impact-dashboard
+
+Summary of completed work:
+- Removed the "Why they rank here" section from engineer cards so empty frontend explanation bullets and placeholder text no longer render.
+
+Decisions made:
+- Removed the entire section instead of conditionally hiding only the empty state, because the current frontend requirement is to omit these bullets altogether.
+
+Assumptions:
+- The ranking explanation content is not needed anywhere else in the current dashboard view.
+
+Open questions / follow-ups:
+- If ranking explanations return later with stable backend content, reintroduce them behind a non-empty data check rather than a placeholder box.
+
 ## 2026-03-17 01:06:52 PDT
 Feature: engineer-impact-dashboard
 
