@@ -1,3 +1,6 @@
+__pycache__/
+.env
+data/cache/github/*.json
 node_modules/
 dist/
 *.tsbuildinfo

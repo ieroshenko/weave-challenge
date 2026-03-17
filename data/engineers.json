@@ -1,9 +1,16 @@
 {
-  "generated_at": "2026-03-17T07:26:32Z",
+  "generated_at": "2026-03-17T09:21:51Z",
   "repo": "PostHog/posthog",
   "window_days": 90,
   "window_start": null,
   "window_end": null,
+  "partial": true,
+  "coverage": {
+    "candidate_prs": 5602,
+    "included_prs": 799,
+    "included_ratio": 0.1426,
+    "cached_issue_hits": 6
+  },
   "methodology": {
     "weights": {
       "shipping": 0.3,
@@ -20,12 +27,6189 @@
     "inclusion_rule": "Contributor must have at least 1 merged PR or at least 3 reviews in the 90-day window.",
     "tie_breaker": "impact_score desc, shipping_score desc, login asc"
   },
-  "leaders": [],
+  "leaders": [
+    {
+      "identity": {
+        "login": "rafaeelaudibert",
+        "display_name": "rafaeelaudibert",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32079912?u=c3771922a6d7204c1d037e4c44e37325c42c6cb9&v=4",
+        "profile_url": "https://github.com/rafaeelaudibert"
+      },
+      "ranking": {
+        "rank": 1,
+        "impact_score": 62.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 27.0,
+          "score": 69.2,
+          "weight": 0.3,
+          "contribution": 20.8
+        },
+        "enablement": {
+          "raw": 310.84,
+          "score": 100.0,
+          "weight": 0.3,
+          "contribution": 30.0
+        },
+        "complexity": {
+          "raw": 7.8,
+          "score": 19.7,
+          "weight": 0.25,
+          "contribution": 4.9
+        },
+        "consistency": {
+          "raw": 46.15,
+          "score": 46.2,
+          "weight": 0.15,
+          "contribution": 6.9
+        }
+      },
+      "stats": {
+        "merged_prs": 27,
+        "issues_closed": 0,
+        "total_additions": 25926,
+        "total_deletions": 9401,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 106,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 1.2,
+        "avg_discussion_comments_per_pr": 7.8,
+        "total_issue_age_days": 0,
+        "active_weeks": 6
+      },
+      "why_it_matters": [
+        "Submitted 106 reviews with 0.6 comments per review and a median response time of 1.2 hours.",
+        "Merged 27 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 6 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "pauldambra",
+        "display_name": "pauldambra",
+        "avatar_url": "https://avatars.githubusercontent.com/u/984817?u=26510bc5f7090bfd110784beb7fbe5893d9f92b4&v=4",
+        "profile_url": "https://github.com/pauldambra"
+      },
+      "ranking": {
+        "rank": 2,
+        "impact_score": 50.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 28.0,
+          "score": 71.8,
+          "weight": 0.3,
+          "contribution": 21.5
+        },
+        "enablement": {
+          "raw": 207.67,
+          "score": 66.8,
+          "weight": 0.3,
+          "contribution": 20.0
+        },
+        "complexity": {
+          "raw": 5.3,
+          "score": 13.4,
+          "weight": 0.25,
+          "contribution": 3.4
+        },
+        "consistency": {
+          "raw": 38.46,
+          "score": 38.5,
+          "weight": 0.15,
+          "contribution": 5.8
+        }
+      },
+      "stats": {
+        "merged_prs": 28,
+        "issues_closed": 0,
+        "total_additions": 3120,
+        "total_deletions": 1730,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 74,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 0.8,
+        "avg_discussion_comments_per_pr": 5.3,
+        "total_issue_age_days": 0,
+        "active_weeks": 5
+      },
+      "why_it_matters": [
+        "Merged 28 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 74 reviews with 0.5 comments per review and a median response time of 0.8 hours.",
+        "Stayed active in 5 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "jonmcwest",
+        "display_name": "jonmcwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/66999846?u=0d5625b618474f16160c5eab48b86e26fb7ac64d&v=4",
+        "profile_url": "https://github.com/jonmcwest"
+      },
+      "ranking": {
+        "rank": 3,
+        "impact_score": 46.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 36.0,
+          "score": 92.3,
+          "weight": 0.3,
+          "contribution": 27.7
+        },
+        "enablement": {
+          "raw": 107.07,
+          "score": 34.4,
+          "weight": 0.3,
+          "contribution": 10.3
+        },
+        "complexity": {
+          "raw": 5.6,
+          "score": 14.2,
+          "weight": 0.25,
+          "contribution": 3.5
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 36,
+        "issues_closed": 0,
+        "total_additions": 4064,
+        "total_deletions": 766,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 35,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 0.4,
+        "avg_discussion_comments_per_pr": 5.6,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 36 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 35 reviews with 0.7 comments per review and a median response time of 0.4 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "tomasfarias",
+        "display_name": "tomasfarias",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18740659?v=4",
+        "profile_url": "https://github.com/tomasfarias"
+      },
+      "ranking": {
+        "rank": 4,
+        "impact_score": 46.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 12.0,
+          "score": 30.8,
+          "weight": 0.3,
+          "contribution": 9.2
+        },
+        "enablement": {
+          "raw": 287.88,
+          "score": 92.6,
+          "weight": 0.3,
+          "contribution": 27.8
+        },
+        "complexity": {
+          "raw": 5.2,
+          "score": 13.2,
+          "weight": 0.25,
+          "contribution": 3.3
+        },
+        "consistency": {
+          "raw": 38.46,
+          "score": 38.5,
+          "weight": 0.15,
+          "contribution": 5.8
+        }
+      },
+      "stats": {
+        "merged_prs": 12,
+        "issues_closed": 0,
+        "total_additions": 436,
+        "total_deletions": 155,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 77,
+        "avg_comments_per_review": 1.4,
+        "median_response_hours": 1.5,
+        "avg_discussion_comments_per_pr": 5.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 5
+      },
+      "why_it_matters": [
+        "Submitted 77 reviews with 1.4 comments per review and a median response time of 1.5 hours.",
+        "Merged 12 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 5 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "haacked",
+        "display_name": "haacked",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19977?u=bb26eb16cda45a61a714df8005abe199ac904c5b&v=4",
+        "profile_url": "https://github.com/haacked"
+      },
+      "ranking": {
+        "rank": 5,
+        "impact_score": 43.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 23.0,
+          "score": 59.0,
+          "weight": 0.3,
+          "contribution": 17.7
+        },
+        "enablement": {
+          "raw": 145.26,
+          "score": 46.7,
+          "weight": 0.3,
+          "contribution": 14.0
+        },
+        "complexity": {
+          "raw": 7.36,
+          "score": 18.6,
+          "weight": 0.25,
+          "contribution": 4.7
+        },
+        "consistency": {
+          "raw": 46.15,
+          "score": 46.2,
+          "weight": 0.15,
+          "contribution": 6.9
+        }
+      },
+      "stats": {
+        "merged_prs": 21,
+        "issues_closed": 1,
+        "total_additions": 8952,
+        "total_deletions": 2153,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 46,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 2.5,
+        "avg_discussion_comments_per_pr": 7.3,
+        "total_issue_age_days": 1.9,
+        "active_weeks": 6
+      },
+      "why_it_matters": [
+        "Merged 21 PRs, closed 1 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 46 reviews with 0.8 comments per review and a median response time of 2.5 hours.",
+        "Stayed active in 6 of 13 calendar weeks."
+      ]
+    }
+  ],
   "leaderboards": {
-    "shipping": [],
-    "enablement": [],
-    "complexity": [],
-    "consistency": []
+    "shipping": [
+      {
+        "identity": {
+          "login": "benjackwhite",
+          "display_name": "benjackwhite",
+          "avatar_url": "https://avatars.githubusercontent.com/u/2536520?v=4",
+          "profile_url": "https://github.com/benjackwhite"
+        },
+        "impact_rank": 12,
+        "impact_score": 38.6,
+        "dimension_score": 100.0,
+        "dimension_raw": 39.0
+      },
+      {
+        "identity": {
+          "login": "jonmcwest",
+          "display_name": "jonmcwest",
+          "avatar_url": "https://avatars.githubusercontent.com/u/66999846?u=0d5625b618474f16160c5eab48b86e26fb7ac64d&v=4",
+          "profile_url": "https://github.com/jonmcwest"
+        },
+        "impact_rank": 3,
+        "impact_score": 46.2,
+        "dimension_score": 92.3,
+        "dimension_raw": 36.0
+      },
+      {
+        "identity": {
+          "login": "thmsobrmlr",
+          "display_name": "thmsobrmlr",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1851359?v=4",
+          "profile_url": "https://github.com/thmsobrmlr"
+        },
+        "impact_rank": 6,
+        "impact_score": 42.3,
+        "dimension_score": 75.9,
+        "dimension_raw": 29.6
+      },
+      {
+        "identity": {
+          "login": "Piccirello",
+          "display_name": "Piccirello",
+          "avatar_url": "https://avatars.githubusercontent.com/u/8296030?u=1474757971bd6e578161aea04684a625424db237&v=4",
+          "profile_url": "https://github.com/Piccirello"
+        },
+        "impact_rank": 7,
+        "impact_score": 41.7,
+        "dimension_score": 74.4,
+        "dimension_raw": 29.0
+      },
+      {
+        "identity": {
+          "login": "jose-sequeira",
+          "display_name": "jose-sequeira",
+          "avatar_url": "https://avatars.githubusercontent.com/u/117165826?u=390bdb2b233b0ee3dacf439bc42192d135acd124&v=4",
+          "profile_url": "https://github.com/jose-sequeira"
+        },
+        "impact_rank": 10,
+        "impact_score": 40.7,
+        "dimension_score": 73.3,
+        "dimension_raw": 28.6
+      }
+    ],
+    "enablement": [
+      {
+        "identity": {
+          "login": "rafaeelaudibert",
+          "display_name": "rafaeelaudibert",
+          "avatar_url": "https://avatars.githubusercontent.com/u/32079912?u=c3771922a6d7204c1d037e4c44e37325c42c6cb9&v=4",
+          "profile_url": "https://github.com/rafaeelaudibert"
+        },
+        "impact_rank": 1,
+        "impact_score": 62.6,
+        "dimension_score": 100.0,
+        "dimension_raw": 310.84
+      },
+      {
+        "identity": {
+          "login": "tomasfarias",
+          "display_name": "tomasfarias",
+          "avatar_url": "https://avatars.githubusercontent.com/u/18740659?v=4",
+          "profile_url": "https://github.com/tomasfarias"
+        },
+        "impact_rank": 4,
+        "impact_score": 46.1,
+        "dimension_score": 92.6,
+        "dimension_raw": 287.88
+      },
+      {
+        "identity": {
+          "login": "pauldambra",
+          "display_name": "pauldambra",
+          "avatar_url": "https://avatars.githubusercontent.com/u/984817?u=26510bc5f7090bfd110784beb7fbe5893d9f92b4&v=4",
+          "profile_url": "https://github.com/pauldambra"
+        },
+        "impact_rank": 2,
+        "impact_score": 50.7,
+        "dimension_score": 66.8,
+        "dimension_raw": 207.67
+      },
+      {
+        "identity": {
+          "login": "rossgray",
+          "display_name": "rossgray",
+          "avatar_url": "https://avatars.githubusercontent.com/u/5103732?u=39524cc2a36358b4b7b07b3ec631169a519855b7&v=4",
+          "profile_url": "https://github.com/rossgray"
+        },
+        "impact_rank": 15,
+        "impact_score": 35.9,
+        "dimension_score": 58.0,
+        "dimension_raw": 180.41
+      },
+      {
+        "identity": {
+          "login": "meikelmosby",
+          "display_name": "meikelmosby",
+          "avatar_url": "https://avatars.githubusercontent.com/u/8418536?u=562c6e076301b74c638b18df4aa059fa3ea3aaec&v=4",
+          "profile_url": "https://github.com/meikelmosby"
+        },
+        "impact_rank": 18,
+        "impact_score": 32.1,
+        "dimension_score": 54.0,
+        "dimension_raw": 167.78
+      }
+    ],
+    "complexity": [
+      {
+        "identity": {
+          "login": "buildwithmalik",
+          "display_name": "buildwithmalik",
+          "avatar_url": "https://avatars.githubusercontent.com/u/47276307?u=143dace1e09f0980cf73e77803cc4a2b2711b2da&v=4",
+          "profile_url": "https://github.com/buildwithmalik"
+        },
+        "impact_rank": 13,
+        "impact_score": 37.4,
+        "dimension_score": 100.0,
+        "dimension_raw": 39.51
+      },
+      {
+        "identity": {
+          "login": "georgemunyoro",
+          "display_name": "georgemunyoro",
+          "avatar_url": "https://avatars.githubusercontent.com/u/32019551?v=4",
+          "profile_url": "https://github.com/georgemunyoro"
+        },
+        "impact_rank": 39,
+        "impact_score": 20.9,
+        "dimension_score": 75.9,
+        "dimension_raw": 30.0
+      },
+      {
+        "identity": {
+          "login": "veryayskiy",
+          "display_name": "veryayskiy",
+          "avatar_url": "https://avatars.githubusercontent.com/u/13624984?u=9bd247851dfa702b3c5952fd7b9e1d967ed3c598&v=4",
+          "profile_url": "https://github.com/veryayskiy"
+        },
+        "impact_rank": 29,
+        "impact_score": 26.3,
+        "dimension_score": 53.2,
+        "dimension_raw": 21.0
+      },
+      {
+        "identity": {
+          "login": "havenbarnes",
+          "display_name": "havenbarnes",
+          "avatar_url": "https://avatars.githubusercontent.com/u/12489563?v=4",
+          "profile_url": "https://github.com/havenbarnes"
+        },
+        "impact_rank": 14,
+        "impact_score": 36.6,
+        "dimension_score": 48.3,
+        "dimension_raw": 19.1
+      },
+      {
+        "identity": {
+          "login": "gesh",
+          "display_name": "gesh",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6430745?u=463890386105e77f440c18d70abb0175871fe819&v=4",
+          "profile_url": "https://github.com/gesh"
+        },
+        "impact_rank": 44,
+        "impact_score": 19.7,
+        "dimension_score": 46.8,
+        "dimension_raw": 18.5
+      }
+    ],
+    "consistency": [
+      {
+        "identity": {
+          "login": "adboio",
+          "display_name": "adboio",
+          "avatar_url": "https://avatars.githubusercontent.com/u/23323033?v=4",
+          "profile_url": "https://github.com/adboio"
+        },
+        "impact_rank": 11,
+        "impact_score": 39.6,
+        "dimension_score": 46.2,
+        "dimension_raw": 46.15
+      },
+      {
+        "identity": {
+          "login": "haacked",
+          "display_name": "haacked",
+          "avatar_url": "https://avatars.githubusercontent.com/u/19977?u=bb26eb16cda45a61a714df8005abe199ac904c5b&v=4",
+          "profile_url": "https://github.com/haacked"
+        },
+        "impact_rank": 5,
+        "impact_score": 43.3,
+        "dimension_score": 46.2,
+        "dimension_raw": 46.15
+      },
+      {
+        "identity": {
+          "login": "rafaeelaudibert",
+          "display_name": "rafaeelaudibert",
+          "avatar_url": "https://avatars.githubusercontent.com/u/32079912?u=c3771922a6d7204c1d037e4c44e37325c42c6cb9&v=4",
+          "profile_url": "https://github.com/rafaeelaudibert"
+        },
+        "impact_rank": 1,
+        "impact_score": 62.6,
+        "dimension_score": 46.2,
+        "dimension_raw": 46.15
+      },
+      {
+        "identity": {
+          "login": "skoob13",
+          "display_name": "skoob13",
+          "avatar_url": "https://avatars.githubusercontent.com/u/13541795?u=9a2f43a55641125d128f4436eab68067deecff23&v=4",
+          "profile_url": "https://github.com/skoob13"
+        },
+        "impact_rank": 9,
+        "impact_score": 40.8,
+        "dimension_score": 46.2,
+        "dimension_raw": 46.15
+      },
+      {
+        "identity": {
+          "login": "thmsobrmlr",
+          "display_name": "thmsobrmlr",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1851359?v=4",
+          "profile_url": "https://github.com/thmsobrmlr"
+        },
+        "impact_rank": 6,
+        "impact_score": 42.3,
+        "dimension_score": 46.2,
+        "dimension_raw": 46.15
+      }
+    ]
   },
-  "contributors": []
+  "contributors": [
+    {
+      "identity": {
+        "login": "rafaeelaudibert",
+        "display_name": "rafaeelaudibert",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32079912?u=c3771922a6d7204c1d037e4c44e37325c42c6cb9&v=4",
+        "profile_url": "https://github.com/rafaeelaudibert"
+      },
+      "ranking": {
+        "rank": 1,
+        "impact_score": 62.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 27.0,
+          "score": 69.2,
+          "weight": 0.3,
+          "contribution": 20.8
+        },
+        "enablement": {
+          "raw": 310.84,
+          "score": 100.0,
+          "weight": 0.3,
+          "contribution": 30.0
+        },
+        "complexity": {
+          "raw": 7.8,
+          "score": 19.7,
+          "weight": 0.25,
+          "contribution": 4.9
+        },
+        "consistency": {
+          "raw": 46.15,
+          "score": 46.2,
+          "weight": 0.15,
+          "contribution": 6.9
+        }
+      },
+      "stats": {
+        "merged_prs": 27,
+        "issues_closed": 0,
+        "total_additions": 25926,
+        "total_deletions": 9401,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 106,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 1.2,
+        "avg_discussion_comments_per_pr": 7.8,
+        "total_issue_age_days": 0,
+        "active_weeks": 6
+      },
+      "why_it_matters": [
+        "Submitted 106 reviews with 0.6 comments per review and a median response time of 1.2 hours.",
+        "Merged 27 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 6 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "pauldambra",
+        "display_name": "pauldambra",
+        "avatar_url": "https://avatars.githubusercontent.com/u/984817?u=26510bc5f7090bfd110784beb7fbe5893d9f92b4&v=4",
+        "profile_url": "https://github.com/pauldambra"
+      },
+      "ranking": {
+        "rank": 2,
+        "impact_score": 50.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 28.0,
+          "score": 71.8,
+          "weight": 0.3,
+          "contribution": 21.5
+        },
+        "enablement": {
+          "raw": 207.67,
+          "score": 66.8,
+          "weight": 0.3,
+          "contribution": 20.0
+        },
+        "complexity": {
+          "raw": 5.3,
+          "score": 13.4,
+          "weight": 0.25,
+          "contribution": 3.4
+        },
+        "consistency": {
+          "raw": 38.46,
+          "score": 38.5,
+          "weight": 0.15,
+          "contribution": 5.8
+        }
+      },
+      "stats": {
+        "merged_prs": 28,
+        "issues_closed": 0,
+        "total_additions": 3120,
+        "total_deletions": 1730,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 74,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 0.8,
+        "avg_discussion_comments_per_pr": 5.3,
+        "total_issue_age_days": 0,
+        "active_weeks": 5
+      },
+      "why_it_matters": [
+        "Merged 28 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 74 reviews with 0.5 comments per review and a median response time of 0.8 hours.",
+        "Stayed active in 5 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "jonmcwest",
+        "display_name": "jonmcwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/66999846?u=0d5625b618474f16160c5eab48b86e26fb7ac64d&v=4",
+        "profile_url": "https://github.com/jonmcwest"
+      },
+      "ranking": {
+        "rank": 3,
+        "impact_score": 46.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 36.0,
+          "score": 92.3,
+          "weight": 0.3,
+          "contribution": 27.7
+        },
+        "enablement": {
+          "raw": 107.07,
+          "score": 34.4,
+          "weight": 0.3,
+          "contribution": 10.3
+        },
+        "complexity": {
+          "raw": 5.6,
+          "score": 14.2,
+          "weight": 0.25,
+          "contribution": 3.5
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 36,
+        "issues_closed": 0,
+        "total_additions": 4064,
+        "total_deletions": 766,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 35,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 0.4,
+        "avg_discussion_comments_per_pr": 5.6,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 36 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 35 reviews with 0.7 comments per review and a median response time of 0.4 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "tomasfarias",
+        "display_name": "tomasfarias",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18740659?v=4",
+        "profile_url": "https://github.com/tomasfarias"
+      },
+      "ranking": {
+        "rank": 4,
+        "impact_score": 46.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 12.0,
+          "score": 30.8,
+          "weight": 0.3,
+          "contribution": 9.2
+        },
+        "enablement": {
+          "raw": 287.88,
+          "score": 92.6,
+          "weight": 0.3,
+          "contribution": 27.8
+        },
+        "complexity": {
+          "raw": 5.2,
+          "score": 13.2,
+          "weight": 0.25,
+          "contribution": 3.3
+        },
+        "consistency": {
+          "raw": 38.46,
+          "score": 38.5,
+          "weight": 0.15,
+          "contribution": 5.8
+        }
+      },
+      "stats": {
+        "merged_prs": 12,
+        "issues_closed": 0,
+        "total_additions": 436,
+        "total_deletions": 155,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 77,
+        "avg_comments_per_review": 1.4,
+        "median_response_hours": 1.5,
+        "avg_discussion_comments_per_pr": 5.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 5
+      },
+      "why_it_matters": [
+        "Submitted 77 reviews with 1.4 comments per review and a median response time of 1.5 hours.",
+        "Merged 12 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 5 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "haacked",
+        "display_name": "haacked",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19977?u=bb26eb16cda45a61a714df8005abe199ac904c5b&v=4",
+        "profile_url": "https://github.com/haacked"
+      },
+      "ranking": {
+        "rank": 5,
+        "impact_score": 43.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 23.0,
+          "score": 59.0,
+          "weight": 0.3,
+          "contribution": 17.7
+        },
+        "enablement": {
+          "raw": 145.26,
+          "score": 46.7,
+          "weight": 0.3,
+          "contribution": 14.0
+        },
+        "complexity": {
+          "raw": 7.36,
+          "score": 18.6,
+          "weight": 0.25,
+          "contribution": 4.7
+        },
+        "consistency": {
+          "raw": 46.15,
+          "score": 46.2,
+          "weight": 0.15,
+          "contribution": 6.9
+        }
+      },
+      "stats": {
+        "merged_prs": 21,
+        "issues_closed": 1,
+        "total_additions": 8952,
+        "total_deletions": 2153,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 46,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 2.5,
+        "avg_discussion_comments_per_pr": 7.3,
+        "total_issue_age_days": 1.9,
+        "active_weeks": 6
+      },
+      "why_it_matters": [
+        "Merged 21 PRs, closed 1 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 46 reviews with 0.8 comments per review and a median response time of 2.5 hours.",
+        "Stayed active in 6 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "thmsobrmlr",
+        "display_name": "thmsobrmlr",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1851359?v=4",
+        "profile_url": "https://github.com/thmsobrmlr"
+      },
+      "ranking": {
+        "rank": 6,
+        "impact_score": 42.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 29.6,
+          "score": 75.9,
+          "weight": 0.3,
+          "contribution": 22.8
+        },
+        "enablement": {
+          "raw": 110.5,
+          "score": 35.6,
+          "weight": 0.3,
+          "contribution": 10.7
+        },
+        "complexity": {
+          "raw": 3.0,
+          "score": 7.6,
+          "weight": 0.25,
+          "contribution": 1.9
+        },
+        "consistency": {
+          "raw": 46.15,
+          "score": 46.2,
+          "weight": 0.15,
+          "contribution": 6.9
+        }
+      },
+      "stats": {
+        "merged_prs": 24,
+        "issues_closed": 0,
+        "total_additions": 8912,
+        "total_deletions": 11399,
+        "code_reduction_bonus": 5.6,
+        "reviews_given": 38,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 21.5,
+        "avg_discussion_comments_per_pr": 3.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 6
+      },
+      "why_it_matters": [
+        "Merged 24 PRs, closed 0 issues, and earned a 5.6 cleanup bonus.",
+        "Submitted 38 reviews with 0.7 comments per review and a median response time of 21.5 hours.",
+        "Stayed active in 6 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "Piccirello",
+        "display_name": "Piccirello",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8296030?u=1474757971bd6e578161aea04684a625424db237&v=4",
+        "profile_url": "https://github.com/Piccirello"
+      },
+      "ranking": {
+        "rank": 7,
+        "impact_score": 41.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 29.0,
+          "score": 74.4,
+          "weight": 0.3,
+          "contribution": 22.3
+        },
+        "enablement": {
+          "raw": 123.22,
+          "score": 39.6,
+          "weight": 0.3,
+          "contribution": 11.9
+        },
+        "complexity": {
+          "raw": 2.7,
+          "score": 6.8,
+          "weight": 0.25,
+          "contribution": 1.7
+        },
+        "consistency": {
+          "raw": 38.46,
+          "score": 38.5,
+          "weight": 0.15,
+          "contribution": 5.8
+        }
+      },
+      "stats": {
+        "merged_prs": 29,
+        "issues_closed": 0,
+        "total_additions": 1111,
+        "total_deletions": 299,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 42,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 1.0,
+        "avg_discussion_comments_per_pr": 2.7,
+        "total_issue_age_days": 0,
+        "active_weeks": 5
+      },
+      "why_it_matters": [
+        "Merged 29 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 42 reviews with 0.6 comments per review and a median response time of 1.0 hours.",
+        "Stayed active in 5 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "webjunkie",
+        "display_name": "webjunkie",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59713?v=4",
+        "profile_url": "https://github.com/webjunkie"
+      },
+      "ranking": {
+        "rank": 8,
+        "impact_score": 41.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 28.0,
+          "score": 71.8,
+          "weight": 0.3,
+          "contribution": 21.5
+        },
+        "enablement": {
+          "raw": 125.0,
+          "score": 40.2,
+          "weight": 0.3,
+          "contribution": 12.1
+        },
+        "complexity": {
+          "raw": 6.4,
+          "score": 16.2,
+          "weight": 0.25,
+          "contribution": 4.0
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 28,
+        "issues_closed": 0,
+        "total_additions": 50424,
+        "total_deletions": 10190,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 43,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 4.9,
+        "avg_discussion_comments_per_pr": 6.4,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 28 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 43 reviews with 0.6 comments per review and a median response time of 4.9 hours.",
+        "Handled 6.4 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "skoob13",
+        "display_name": "skoob13",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13541795?u=9a2f43a55641125d128f4436eab68067deecff23&v=4",
+        "profile_url": "https://github.com/skoob13"
+      },
+      "ranking": {
+        "rank": 9,
+        "impact_score": 40.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 23.1,
+          "score": 59.2,
+          "weight": 0.3,
+          "contribution": 17.8
+        },
+        "enablement": {
+          "raw": 137.73,
+          "score": 44.3,
+          "weight": 0.3,
+          "contribution": 13.3
+        },
+        "complexity": {
+          "raw": 4.4,
+          "score": 11.1,
+          "weight": 0.25,
+          "contribution": 2.8
+        },
+        "consistency": {
+          "raw": 46.15,
+          "score": 46.2,
+          "weight": 0.15,
+          "contribution": 6.9
+        }
+      },
+      "stats": {
+        "merged_prs": 22,
+        "issues_closed": 0,
+        "total_additions": 6672,
+        "total_deletions": 7036,
+        "code_reduction_bonus": 1.1,
+        "reviews_given": 41,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 3.5,
+        "avg_discussion_comments_per_pr": 4.4,
+        "total_issue_age_days": 0,
+        "active_weeks": 6
+      },
+      "why_it_matters": [
+        "Merged 22 PRs, closed 0 issues, and earned a 1.1 cleanup bonus.",
+        "Submitted 41 reviews with 1.0 comments per review and a median response time of 3.5 hours.",
+        "Stayed active in 6 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "jose-sequeira",
+        "display_name": "jose-sequeira",
+        "avatar_url": "https://avatars.githubusercontent.com/u/117165826?u=390bdb2b233b0ee3dacf439bc42192d135acd124&v=4",
+        "profile_url": "https://github.com/jose-sequeira"
+      },
+      "ranking": {
+        "rank": 10,
+        "impact_score": 40.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 28.6,
+          "score": 73.3,
+          "weight": 0.3,
+          "contribution": 22.0
+        },
+        "enablement": {
+          "raw": 125.89,
+          "score": 40.5,
+          "weight": 0.3,
+          "contribution": 12.1
+        },
+        "complexity": {
+          "raw": 3.0,
+          "score": 7.6,
+          "weight": 0.25,
+          "contribution": 1.9
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 13,
+        "issues_closed": 0,
+        "total_additions": 5627,
+        "total_deletions": 10017,
+        "code_reduction_bonus": 15.6,
+        "reviews_given": 43,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 1.9,
+        "avg_discussion_comments_per_pr": 3.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 13 PRs, closed 0 issues, and earned a 15.6 cleanup bonus.",
+        "Submitted 43 reviews with 0.6 comments per review and a median response time of 1.9 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "adboio",
+        "display_name": "adboio",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23323033?v=4",
+        "profile_url": "https://github.com/adboio"
+      },
+      "ranking": {
+        "rank": 11,
+        "impact_score": 39.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 21.0,
+          "score": 53.8,
+          "weight": 0.3,
+          "contribution": 16.2
+        },
+        "enablement": {
+          "raw": 140.6,
+          "score": 45.2,
+          "weight": 0.3,
+          "contribution": 13.6
+        },
+        "complexity": {
+          "raw": 4.6,
+          "score": 11.6,
+          "weight": 0.25,
+          "contribution": 2.9
+        },
+        "consistency": {
+          "raw": 46.15,
+          "score": 46.2,
+          "weight": 0.15,
+          "contribution": 6.9
+        }
+      },
+      "stats": {
+        "merged_prs": 21,
+        "issues_closed": 0,
+        "total_additions": 4826,
+        "total_deletions": 1140,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 43,
+        "avg_comments_per_review": 0.9,
+        "median_response_hours": 1.9,
+        "avg_discussion_comments_per_pr": 4.6,
+        "total_issue_age_days": 0,
+        "active_weeks": 6
+      },
+      "why_it_matters": [
+        "Merged 21 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 43 reviews with 0.9 comments per review and a median response time of 1.9 hours.",
+        "Stayed active in 6 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "benjackwhite",
+        "display_name": "benjackwhite",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2536520?v=4",
+        "profile_url": "https://github.com/benjackwhite"
+      },
+      "ranking": {
+        "rank": 12,
+        "impact_score": 38.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 39.0,
+          "score": 100.0,
+          "weight": 0.3,
+          "contribution": 30.0
+        },
+        "enablement": {
+          "raw": 36.53,
+          "score": 11.8,
+          "weight": 0.3,
+          "contribution": 3.5
+        },
+        "complexity": {
+          "raw": 2.6,
+          "score": 6.6,
+          "weight": 0.25,
+          "contribution": 1.6
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 19,
+        "issues_closed": 0,
+        "total_additions": 3583,
+        "total_deletions": 13190,
+        "code_reduction_bonus": 20.0,
+        "reviews_given": 13,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 0.2,
+        "avg_discussion_comments_per_pr": 2.6,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 19 PRs, closed 0 issues, and earned a 20.0 cleanup bonus.",
+        "Submitted 13 reviews with 0.5 comments per review and a median response time of 0.2 hours.",
+        "Stayed active in 3 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "buildwithmalik",
+        "display_name": "buildwithmalik",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47276307?u=143dace1e09f0980cf73e77803cc4a2b2711b2da&v=4",
+        "profile_url": "https://github.com/buildwithmalik"
+      },
+      "ranking": {
+        "rank": 13,
+        "impact_score": 37.4
+      },
+      "scores": {
+        "shipping": {
+          "raw": 4.0,
+          "score": 10.3,
+          "weight": 0.3,
+          "contribution": 3.1
+        },
+        "enablement": {
+          "raw": 60.94,
+          "score": 19.6,
+          "weight": 0.3,
+          "contribution": 5.9
+        },
+        "complexity": {
+          "raw": 39.51,
+          "score": 100.0,
+          "weight": 0.25,
+          "contribution": 25.0
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 1,
+        "total_additions": 2532,
+        "total_deletions": 336,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 18,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 0.2,
+        "avg_discussion_comments_per_pr": 39.0,
+        "total_issue_age_days": 15.3,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Handled 39.0 discussion comments per merged PR and closed issues averaging 15 days old.",
+        "Submitted 18 reviews with 1.0 comments per review and a median response time of 0.2 hours.",
+        "Stayed active in 3 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "havenbarnes",
+        "display_name": "havenbarnes",
+        "avatar_url": "https://avatars.githubusercontent.com/u/12489563?v=4",
+        "profile_url": "https://github.com/havenbarnes"
+      },
+      "ranking": {
+        "rank": 14,
+        "impact_score": 36.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 9.0,
+          "score": 23.1,
+          "weight": 0.3,
+          "contribution": 6.9
+        },
+        "enablement": {
+          "raw": 134.31,
+          "score": 43.2,
+          "weight": 0.3,
+          "contribution": 13.0
+        },
+        "complexity": {
+          "raw": 19.1,
+          "score": 48.3,
+          "weight": 0.25,
+          "contribution": 12.1
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 9,
+        "issues_closed": 0,
+        "total_additions": 3345,
+        "total_deletions": 154,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 43,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 7.1,
+        "avg_discussion_comments_per_pr": 19.1,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Submitted 43 reviews with 0.8 comments per review and a median response time of 7.1 hours.",
+        "Handled 19.1 discussion comments per merged PR.",
+        "Merged 9 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "rossgray",
+        "display_name": "rossgray",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5103732?u=39524cc2a36358b4b7b07b3ec631169a519855b7&v=4",
+        "profile_url": "https://github.com/rossgray"
+      },
+      "ranking": {
+        "rank": 15,
+        "impact_score": 35.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 8.0,
+          "score": 20.5,
+          "weight": 0.3,
+          "contribution": 6.2
+        },
+        "enablement": {
+          "raw": 180.41,
+          "score": 58.0,
+          "weight": 0.3,
+          "contribution": 17.4
+        },
+        "complexity": {
+          "raw": 12.2,
+          "score": 30.9,
+          "weight": 0.25,
+          "contribution": 7.7
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 8,
+        "issues_closed": 0,
+        "total_additions": 764,
+        "total_deletions": 209,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 57,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 1.5,
+        "avg_discussion_comments_per_pr": 12.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Submitted 57 reviews with 0.8 comments per review and a median response time of 1.5 hours.",
+        "Handled 12.2 discussion comments per merged PR.",
+        "Merged 8 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "fasyy612",
+        "display_name": "fasyy612",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19719193?u=90fbd19bd8bcdc16b5400800c48c4d4f037e8625&v=4",
+        "profile_url": "https://github.com/fasyy612"
+      },
+      "ranking": {
+        "rank": 16,
+        "impact_score": 34.5
+      },
+      "scores": {
+        "shipping": {
+          "raw": 17.5,
+          "score": 44.9,
+          "weight": 0.3,
+          "contribution": 13.5
+        },
+        "enablement": {
+          "raw": 75.68,
+          "score": 24.3,
+          "weight": 0.3,
+          "contribution": 7.3
+        },
+        "complexity": {
+          "raw": 14.4,
+          "score": 36.4,
+          "weight": 0.25,
+          "contribution": 9.1
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 5,
+        "issues_closed": 0,
+        "total_additions": 2382,
+        "total_deletions": 3870,
+        "code_reduction_bonus": 12.5,
+        "reviews_given": 26,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 21.1,
+        "avg_discussion_comments_per_pr": 14.4,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 5 PRs, closed 0 issues, and earned a 12.5 cleanup bonus.",
+        "Handled 14.4 discussion comments per merged PR.",
+        "Submitted 26 reviews with 0.7 comments per review and a median response time of 21.1 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "joshsny",
+        "display_name": "joshsny",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7135900?v=4",
+        "profile_url": "https://github.com/joshsny"
+      },
+      "ranking": {
+        "rank": 17,
+        "impact_score": 33.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 23.0,
+          "score": 59.0,
+          "weight": 0.3,
+          "contribution": 17.7
+        },
+        "enablement": {
+          "raw": 95.07,
+          "score": 30.6,
+          "weight": 0.3,
+          "contribution": 9.2
+        },
+        "complexity": {
+          "raw": 3.6,
+          "score": 9.1,
+          "weight": 0.25,
+          "contribution": 2.3
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 23,
+        "issues_closed": 0,
+        "total_additions": 3607,
+        "total_deletions": 2492,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 24,
+        "avg_comments_per_review": 1.7,
+        "median_response_hours": 2.8,
+        "avg_discussion_comments_per_pr": 3.6,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 23 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 24 reviews with 1.7 comments per review and a median response time of 2.8 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "meikelmosby",
+        "display_name": "meikelmosby",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8418536?u=562c6e076301b74c638b18df4aa059fa3ea3aaec&v=4",
+        "profile_url": "https://github.com/meikelmosby"
+      },
+      "ranking": {
+        "rank": 18,
+        "impact_score": 32.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 10.0,
+          "score": 25.6,
+          "weight": 0.3,
+          "contribution": 7.7
+        },
+        "enablement": {
+          "raw": 167.78,
+          "score": 54.0,
+          "weight": 0.3,
+          "contribution": 16.2
+        },
+        "complexity": {
+          "raw": 5.7,
+          "score": 14.4,
+          "weight": 0.25,
+          "contribution": 3.6
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 10,
+        "issues_closed": 0,
+        "total_additions": 3080,
+        "total_deletions": 1587,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 43,
+        "avg_comments_per_review": 1.6,
+        "median_response_hours": 1.1,
+        "avg_discussion_comments_per_pr": 5.7,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Submitted 43 reviews with 1.6 comments per review and a median response time of 1.1 hours.",
+        "Merged 10 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "gustavohstrassburger",
+        "display_name": "gustavohstrassburger",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9598562?v=4",
+        "profile_url": "https://github.com/gustavohstrassburger"
+      },
+      "ranking": {
+        "rank": 19,
+        "impact_score": 30.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 17.0,
+          "score": 43.6,
+          "weight": 0.3,
+          "contribution": 13.1
+        },
+        "enablement": {
+          "raw": 101.36,
+          "score": 32.6,
+          "weight": 0.3,
+          "contribution": 9.8
+        },
+        "complexity": {
+          "raw": 5.2,
+          "score": 13.2,
+          "weight": 0.25,
+          "contribution": 3.3
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 17,
+        "issues_closed": 0,
+        "total_additions": 2617,
+        "total_deletions": 626,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 32,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 1.2,
+        "avg_discussion_comments_per_pr": 5.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 17 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 32 reviews with 0.8 comments per review and a median response time of 1.2 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "adamleithp",
+        "display_name": "adamleithp",
+        "avatar_url": "https://avatars.githubusercontent.com/u/814190?v=4",
+        "profile_url": "https://github.com/adamleithp"
+      },
+      "ranking": {
+        "rank": 20,
+        "impact_score": 29.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 27.0,
+          "score": 69.2,
+          "weight": 0.3,
+          "contribution": 20.8
+        },
+        "enablement": {
+          "raw": 13.29,
+          "score": 4.3,
+          "weight": 0.3,
+          "contribution": 1.3
+        },
+        "complexity": {
+          "raw": 4.9,
+          "score": 12.4,
+          "weight": 0.25,
+          "contribution": 3.1
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 7,
+        "issues_closed": 0,
+        "total_additions": 911,
+        "total_deletions": 3571,
+        "code_reduction_bonus": 20.0,
+        "reviews_given": 5,
+        "avg_comments_per_review": 0.4,
+        "median_response_hours": 2.5,
+        "avg_discussion_comments_per_pr": 4.9,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 7 PRs, closed 0 issues, and earned a 20.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Handled 4.9 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "eli-r-ph",
+        "display_name": "eli-r-ph",
+        "avatar_url": "https://avatars.githubusercontent.com/u/197809444?v=4",
+        "profile_url": "https://github.com/eli-r-ph"
+      },
+      "ranking": {
+        "rank": 21,
+        "impact_score": 29.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 17.0,
+          "score": 43.6,
+          "weight": 0.3,
+          "contribution": 13.1
+        },
+        "enablement": {
+          "raw": 102.67,
+          "score": 33.0,
+          "weight": 0.3,
+          "contribution": 9.9
+        },
+        "complexity": {
+          "raw": 3.4,
+          "score": 8.6,
+          "weight": 0.25,
+          "contribution": 2.2
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 17,
+        "issues_closed": 0,
+        "total_additions": 8446,
+        "total_deletions": 906,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 37,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 5.6,
+        "avg_discussion_comments_per_pr": 3.4,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 17 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 37 reviews with 0.5 comments per review and a median response time of 5.6 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "sakce",
+        "display_name": "sakce",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49978945?u=b9320d127f4a54a37de25e6467a65d4454865817&v=4",
+        "profile_url": "https://github.com/sakce"
+      },
+      "ranking": {
+        "rank": 22,
+        "impact_score": 29.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 18.0,
+          "score": 46.2,
+          "weight": 0.3,
+          "contribution": 13.8
+        },
+        "enablement": {
+          "raw": 67.41,
+          "score": 21.7,
+          "weight": 0.3,
+          "contribution": 6.5
+        },
+        "complexity": {
+          "raw": 6.9,
+          "score": 17.5,
+          "weight": 0.25,
+          "contribution": 4.4
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 18,
+        "issues_closed": 0,
+        "total_additions": 6156,
+        "total_deletions": 1040,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 24,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 0.4,
+        "avg_discussion_comments_per_pr": 6.9,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 18 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 24 reviews with 0.5 comments per review and a median response time of 0.4 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "vdekrijger",
+        "display_name": "vdekrijger",
+        "avatar_url": "https://avatars.githubusercontent.com/u/66254686?v=4",
+        "profile_url": "https://github.com/vdekrijger"
+      },
+      "ranking": {
+        "rank": 23,
+        "impact_score": 29.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 13.0,
+          "score": 33.3,
+          "weight": 0.3,
+          "contribution": 10.0
+        },
+        "enablement": {
+          "raw": 102.21,
+          "score": 32.9,
+          "weight": 0.3,
+          "contribution": 9.9
+        },
+        "complexity": {
+          "raw": 3.5,
+          "score": 8.9,
+          "weight": 0.25,
+          "contribution": 2.2
+        },
+        "consistency": {
+          "raw": 46.15,
+          "score": 46.2,
+          "weight": 0.15,
+          "contribution": 6.9
+        }
+      },
+      "stats": {
+        "merged_prs": 13,
+        "issues_closed": 0,
+        "total_additions": 5026,
+        "total_deletions": 521,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 34,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 7.8,
+        "avg_discussion_comments_per_pr": 3.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 6
+      },
+      "why_it_matters": [
+        "Merged 13 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 34 reviews with 0.7 comments per review and a median response time of 7.8 hours.",
+        "Stayed active in 6 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "arthurdedeus",
+        "display_name": "arthurdedeus",
+        "avatar_url": "https://avatars.githubusercontent.com/u/54866778?v=4",
+        "profile_url": "https://github.com/arthurdedeus"
+      },
+      "ranking": {
+        "rank": 24,
+        "impact_score": 29.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 16.0,
+          "score": 41.0,
+          "weight": 0.3,
+          "contribution": 12.3
+        },
+        "enablement": {
+          "raw": 96.9,
+          "score": 31.2,
+          "weight": 0.3,
+          "contribution": 9.4
+        },
+        "complexity": {
+          "raw": 6.1,
+          "score": 15.4,
+          "weight": 0.25,
+          "contribution": 3.9
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 16,
+        "issues_closed": 0,
+        "total_additions": 2416,
+        "total_deletions": 761,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 29,
+        "avg_comments_per_review": 1.1,
+        "median_response_hours": 17.6,
+        "avg_discussion_comments_per_pr": 6.1,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 16 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 29 reviews with 1.1 comments per review and a median response time of 17.6 hours.",
+        "Handled 6.1 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "pl",
+        "display_name": "pl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69904?u=13f8bf018d6803cda7db4186d194089711376e95&v=4",
+        "profile_url": "https://github.com/pl"
+      },
+      "ranking": {
+        "rank": 25,
+        "impact_score": 27.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 18.0,
+          "score": 46.2,
+          "weight": 0.3,
+          "contribution": 13.8
+        },
+        "enablement": {
+          "raw": 75.4,
+          "score": 24.3,
+          "weight": 0.3,
+          "contribution": 7.3
+        },
+        "complexity": {
+          "raw": 3.1,
+          "score": 7.8,
+          "weight": 0.25,
+          "contribution": 2.0
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 18,
+        "issues_closed": 0,
+        "total_additions": 18078,
+        "total_deletions": 2079,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 26,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 5.9,
+        "avg_discussion_comments_per_pr": 3.1,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 18 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 26 reviews with 0.6 comments per review and a median response time of 5.9 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "andrewm4894",
+        "display_name": "andrewm4894",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2178292?v=4",
+        "profile_url": "https://github.com/andrewm4894"
+      },
+      "ranking": {
+        "rank": 26,
+        "impact_score": 27.4
+      },
+      "scores": {
+        "shipping": {
+          "raw": 15.0,
+          "score": 38.5,
+          "weight": 0.3,
+          "contribution": 11.5
+        },
+        "enablement": {
+          "raw": 94.79,
+          "score": 30.5,
+          "weight": 0.3,
+          "contribution": 9.1
+        },
+        "complexity": {
+          "raw": 5.1,
+          "score": 12.9,
+          "weight": 0.25,
+          "contribution": 3.2
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 15,
+        "issues_closed": 0,
+        "total_additions": 6485,
+        "total_deletions": 2448,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 31,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 0.6,
+        "avg_discussion_comments_per_pr": 5.1,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 15 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 31 reviews with 0.7 comments per review and a median response time of 0.6 hours.",
+        "Stayed active in 3 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "jeremylongshore",
+        "display_name": "jeremylongshore",
+        "avatar_url": "https://avatars.githubusercontent.com/u/213859472?v=4",
+        "profile_url": "https://github.com/jeremylongshore"
+      },
+      "ranking": {
+        "rank": 27,
+        "impact_score": 26.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 26.0,
+          "score": 66.7,
+          "weight": 0.3,
+          "contribution": 20.0
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 8.95,
+          "score": 22.7,
+          "weight": 0.25,
+          "contribution": 5.7
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 2,
+        "total_additions": 5,
+        "total_deletions": 14,
+        "code_reduction_bonus": 20.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 0.0,
+        "total_issue_age_days": 537.0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Merged 2 PRs, closed 2 issues, and earned a 20.0 cleanup bonus.",
+        "Handled 0.0 discussion comments per merged PR and closed issues averaging 268 days old.",
+        "Stayed active in 1 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "odin-posthog",
+        "display_name": "odin-posthog",
+        "avatar_url": "https://avatars.githubusercontent.com/u/246706791?v=4",
+        "profile_url": "https://github.com/odin-posthog"
+      },
+      "ranking": {
+        "rank": 28,
+        "impact_score": 26.5
+      },
+      "scores": {
+        "shipping": {
+          "raw": 13.0,
+          "score": 33.3,
+          "weight": 0.3,
+          "contribution": 10.0
+        },
+        "enablement": {
+          "raw": 80.92,
+          "score": 26.0,
+          "weight": 0.3,
+          "contribution": 7.8
+        },
+        "complexity": {
+          "raw": 6.5,
+          "score": 16.5,
+          "weight": 0.25,
+          "contribution": 4.1
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 13,
+        "issues_closed": 0,
+        "total_additions": 4403,
+        "total_deletions": 167,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 23,
+        "avg_comments_per_review": 1.2,
+        "median_response_hours": 7.1,
+        "avg_discussion_comments_per_pr": 6.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 13 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 23 reviews with 1.2 comments per review and a median response time of 7.1 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "veryayskiy",
+        "display_name": "veryayskiy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13624984?u=9bd247851dfa702b3c5952fd7b9e1d967ed3c598&v=4",
+        "profile_url": "https://github.com/veryayskiy"
+      },
+      "ranking": {
+        "rank": 29,
+        "impact_score": 26.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 4.0,
+          "score": 10.3,
+          "weight": 0.3,
+          "contribution": 3.1
+        },
+        "enablement": {
+          "raw": 66.58,
+          "score": 21.4,
+          "weight": 0.3,
+          "contribution": 6.4
+        },
+        "complexity": {
+          "raw": 21.0,
+          "score": 53.2,
+          "weight": 0.25,
+          "contribution": 13.3
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 4,
+        "issues_closed": 0,
+        "total_additions": 4997,
+        "total_deletions": 445,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 21,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 0.8,
+        "avg_discussion_comments_per_pr": 21.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Handled 21.0 discussion comments per merged PR.",
+        "Submitted 21 reviews with 0.8 comments per review and a median response time of 0.8 hours.",
+        "Stayed active in 3 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "TueHaulund",
+        "display_name": "TueHaulund",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2675352?u=8a7333d42e264ef0c66ffdf5f0d6f62286c4c3e7&v=4",
+        "profile_url": "https://github.com/TueHaulund"
+      },
+      "ranking": {
+        "rank": 30,
+        "impact_score": 25.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 20.3,
+          "score": 52.1,
+          "weight": 0.3,
+          "contribution": 15.6
+        },
+        "enablement": {
+          "raw": 55.22,
+          "score": 17.8,
+          "weight": 0.3,
+          "contribution": 5.3
+        },
+        "complexity": {
+          "raw": 2.3,
+          "score": 5.8,
+          "weight": 0.25,
+          "contribution": 1.5
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 9,
+        "issues_closed": 0,
+        "total_additions": 710,
+        "total_deletions": 1112,
+        "code_reduction_bonus": 11.3,
+        "reviews_given": 20,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 7.7,
+        "avg_discussion_comments_per_pr": 2.3,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 9 PRs, closed 0 issues, and earned a 11.3 cleanup bonus.",
+        "Submitted 20 reviews with 0.5 comments per review and a median response time of 7.7 hours.",
+        "Stayed active in 3 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "jabahamondes",
+        "display_name": "jabahamondes",
+        "avatar_url": "https://avatars.githubusercontent.com/u/205275836?v=4",
+        "profile_url": "https://github.com/jabahamondes"
+      },
+      "ranking": {
+        "rank": 31,
+        "impact_score": 25.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 8.0,
+          "score": 20.5,
+          "weight": 0.3,
+          "contribution": 6.2
+        },
+        "enablement": {
+          "raw": 82.51,
+          "score": 26.5,
+          "weight": 0.3,
+          "contribution": 8.0
+        },
+        "complexity": {
+          "raw": 8.4,
+          "score": 21.3,
+          "weight": 0.25,
+          "contribution": 5.3
+        },
+        "consistency": {
+          "raw": 38.46,
+          "score": 38.5,
+          "weight": 0.15,
+          "contribution": 5.8
+        }
+      },
+      "stats": {
+        "merged_prs": 8,
+        "issues_closed": 0,
+        "total_additions": 3865,
+        "total_deletions": 2174,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 31,
+        "avg_comments_per_review": 0.4,
+        "median_response_hours": 1.9,
+        "avg_discussion_comments_per_pr": 8.4,
+        "total_issue_age_days": 0,
+        "active_weeks": 5
+      },
+      "why_it_matters": [
+        "Submitted 31 reviews with 0.4 comments per review and a median response time of 1.9 hours.",
+        "Merged 8 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 5 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "tatoalo",
+        "display_name": "tatoalo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2117114?u=017b53739fbfb9abfab9118f07fac45d6def8ec7&v=4",
+        "profile_url": "https://github.com/tatoalo"
+      },
+      "ranking": {
+        "rank": 32,
+        "impact_score": 25.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 9.0,
+          "score": 23.1,
+          "weight": 0.3,
+          "contribution": 6.9
+        },
+        "enablement": {
+          "raw": 102.88,
+          "score": 33.1,
+          "weight": 0.3,
+          "contribution": 9.9
+        },
+        "complexity": {
+          "raw": 5.9,
+          "score": 14.9,
+          "weight": 0.25,
+          "contribution": 3.7
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 9,
+        "issues_closed": 0,
+        "total_additions": 2193,
+        "total_deletions": 445,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 35,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 0.2,
+        "avg_discussion_comments_per_pr": 5.9,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Submitted 35 reviews with 0.6 comments per review and a median response time of 0.2 hours.",
+        "Merged 9 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "kappa90",
+        "display_name": "kappa90",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7335343?u=b8aa6d06b850657337c8d7a831ac30dab78072b2&v=4",
+        "profile_url": "https://github.com/kappa90"
+      },
+      "ranking": {
+        "rank": 33,
+        "impact_score": 25.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 6.0,
+          "score": 15.4,
+          "weight": 0.3,
+          "contribution": 4.6
+        },
+        "enablement": {
+          "raw": 98.75,
+          "score": 31.8,
+          "weight": 0.3,
+          "contribution": 9.5
+        },
+        "complexity": {
+          "raw": 8.2,
+          "score": 20.8,
+          "weight": 0.25,
+          "contribution": 5.2
+        },
+        "consistency": {
+          "raw": 38.46,
+          "score": 38.5,
+          "weight": 0.15,
+          "contribution": 5.8
+        }
+      },
+      "stats": {
+        "merged_prs": 6,
+        "issues_closed": 0,
+        "total_additions": 1832,
+        "total_deletions": 1224,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 25,
+        "avg_comments_per_review": 1.7,
+        "median_response_hours": 4.0,
+        "avg_discussion_comments_per_pr": 8.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 5
+      },
+      "why_it_matters": [
+        "Submitted 25 reviews with 1.7 comments per review and a median response time of 4.0 hours.",
+        "Stayed active in 5 of 13 calendar weeks.",
+        "Handled 8.2 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "ablaszkiewicz",
+        "display_name": "ablaszkiewicz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/54682207?u=88966d9677a50f06145b9e5b5b7360744504c99d&v=4",
+        "profile_url": "https://github.com/ablaszkiewicz"
+      },
+      "ranking": {
+        "rank": 34,
+        "impact_score": 23.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 8.0,
+          "score": 20.5,
+          "weight": 0.3,
+          "contribution": 6.2
+        },
+        "enablement": {
+          "raw": 82.17,
+          "score": 26.4,
+          "weight": 0.3,
+          "contribution": 7.9
+        },
+        "complexity": {
+          "raw": 8.1,
+          "score": 20.5,
+          "weight": 0.25,
+          "contribution": 5.1
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 8,
+        "issues_closed": 0,
+        "total_additions": 1743,
+        "total_deletions": 110,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 28,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 0.9,
+        "avg_discussion_comments_per_pr": 8.1,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Submitted 28 reviews with 0.6 comments per review and a median response time of 0.9 hours.",
+        "Merged 8 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 8.1 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "lucasheriques",
+        "display_name": "lucasheriques",
+        "avatar_url": "https://avatars.githubusercontent.com/u/12522524?u=8435ec06c108b9ed20d7da8fa19d20f1e50fbd36&v=4",
+        "profile_url": "https://github.com/lucasheriques"
+      },
+      "ranking": {
+        "rank": 35,
+        "impact_score": 23.4
+      },
+      "scores": {
+        "shipping": {
+          "raw": 6.0,
+          "score": 15.4,
+          "weight": 0.3,
+          "contribution": 4.6
+        },
+        "enablement": {
+          "raw": 80.26,
+          "score": 25.8,
+          "weight": 0.3,
+          "contribution": 7.7
+        },
+        "complexity": {
+          "raw": 10.2,
+          "score": 25.8,
+          "weight": 0.25,
+          "contribution": 6.5
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 6,
+        "issues_closed": 0,
+        "total_additions": 1686,
+        "total_deletions": 373,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 29,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 6.7,
+        "avg_discussion_comments_per_pr": 10.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Submitted 29 reviews with 0.5 comments per review and a median response time of 6.7 hours.",
+        "Handled 10.2 discussion comments per merged PR.",
+        "Merged 6 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "ReeceJones",
+        "display_name": "ReeceJones",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21371637?v=4",
+        "profile_url": "https://github.com/ReeceJones"
+      },
+      "ranking": {
+        "rank": 36,
+        "impact_score": 23.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 24.9,
+          "score": 63.8,
+          "weight": 0.3,
+          "contribution": 19.2
+        },
+        "enablement": {
+          "raw": 8.41,
+          "score": 2.7,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "complexity": {
+          "raw": 1.2,
+          "score": 3.0,
+          "weight": 0.25,
+          "contribution": 0.8
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 5,
+        "issues_closed": 0,
+        "total_additions": 328,
+        "total_deletions": 655,
+        "code_reduction_bonus": 19.9,
+        "reviews_given": 5,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 183.1,
+        "avg_discussion_comments_per_pr": 1.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Merged 5 PRs, closed 0 issues, and earned a 19.9 cleanup bonus.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Submitted 5 reviews with 0.6 comments per review and a median response time of 183.1 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "frankh",
+        "display_name": "frankh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2088870?v=4",
+        "profile_url": "https://github.com/frankh"
+      },
+      "ranking": {
+        "rank": 37,
+        "impact_score": 23.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 10.0,
+          "score": 25.6,
+          "weight": 0.3,
+          "contribution": 7.7
+        },
+        "enablement": {
+          "raw": 91.81,
+          "score": 29.5,
+          "weight": 0.3,
+          "contribution": 8.9
+        },
+        "complexity": {
+          "raw": 2.9,
+          "score": 7.3,
+          "weight": 0.25,
+          "contribution": 1.8
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 10,
+        "issues_closed": 0,
+        "total_additions": 2827,
+        "total_deletions": 469,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 39,
+        "avg_comments_per_review": 0.2,
+        "median_response_hours": 2.0,
+        "avg_discussion_comments_per_pr": 2.9,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Submitted 39 reviews with 0.2 comments per review and a median response time of 2.0 hours.",
+        "Merged 10 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "ksvat",
+        "display_name": "ksvat",
+        "avatar_url": "https://avatars.githubusercontent.com/u/147102038?u=8638c5632911e8d4050cbc655f1506399f7480ff&v=4",
+        "profile_url": "https://github.com/ksvat"
+      },
+      "ranking": {
+        "rank": 38,
+        "impact_score": 21.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 11.0,
+          "score": 28.2,
+          "weight": 0.3,
+          "contribution": 8.5
+        },
+        "enablement": {
+          "raw": 55.17,
+          "score": 17.7,
+          "weight": 0.3,
+          "contribution": 5.3
+        },
+        "complexity": {
+          "raw": 5.2,
+          "score": 13.2,
+          "weight": 0.25,
+          "contribution": 3.3
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 11,
+        "issues_closed": 0,
+        "total_additions": 909,
+        "total_deletions": 672,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 18,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 15.0,
+        "avg_discussion_comments_per_pr": 5.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 11 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 18 reviews with 0.8 comments per review and a median response time of 15.0 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "georgemunyoro",
+        "display_name": "georgemunyoro",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32019551?v=4",
+        "profile_url": "https://github.com/georgemunyoro"
+      },
+      "ranking": {
+        "rank": 39,
+        "impact_score": 20.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 30.0,
+          "score": 75.9,
+          "weight": 0.25,
+          "contribution": 19.0
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 1702,
+        "total_deletions": 1034,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 30.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Handled 30.0 discussion comments per merged PR.",
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "Gilbert09",
+        "display_name": "Gilbert09",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1459269?u=0edde3eeb61b9d9c80cf8e432bae838fee58f179&v=4",
+        "profile_url": "https://github.com/Gilbert09"
+      },
+      "ranking": {
+        "rank": 40,
+        "impact_score": 20.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 12.0,
+          "score": 30.8,
+          "weight": 0.3,
+          "contribution": 9.2
+        },
+        "enablement": {
+          "raw": 66.34,
+          "score": 21.3,
+          "weight": 0.3,
+          "contribution": 6.4
+        },
+        "complexity": {
+          "raw": 2.6,
+          "score": 6.6,
+          "weight": 0.25,
+          "contribution": 1.6
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 12,
+        "issues_closed": 0,
+        "total_additions": 1296,
+        "total_deletions": 727,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 23,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 8.2,
+        "avg_discussion_comments_per_pr": 2.6,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 12 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 23 reviews with 0.6 comments per review and a median response time of 8.2 hours.",
+        "Stayed active in 3 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "oliverb123",
+        "display_name": "oliverb123",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8105072?u=4a8780a6c8d2411715f09da05e1d63b5ef06be08&v=4",
+        "profile_url": "https://github.com/oliverb123"
+      },
+      "ranking": {
+        "rank": 41,
+        "impact_score": 20.5
+      },
+      "scores": {
+        "shipping": {
+          "raw": 8.0,
+          "score": 20.5,
+          "weight": 0.3,
+          "contribution": 6.2
+        },
+        "enablement": {
+          "raw": 61.31,
+          "score": 19.7,
+          "weight": 0.3,
+          "contribution": 5.9
+        },
+        "complexity": {
+          "raw": 6.0,
+          "score": 15.2,
+          "weight": 0.25,
+          "contribution": 3.8
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 8,
+        "issues_closed": 0,
+        "total_additions": 1344,
+        "total_deletions": 492,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 23,
+        "avg_comments_per_review": 0.4,
+        "median_response_hours": 1.3,
+        "avg_discussion_comments_per_pr": 6.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 8 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 23 reviews with 0.4 comments per review and a median response time of 1.3 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "MattBro",
+        "display_name": "MattBro",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9833550?v=4",
+        "profile_url": "https://github.com/MattBro"
+      },
+      "ranking": {
+        "rank": 42,
+        "impact_score": 20.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 7.0,
+          "score": 17.9,
+          "weight": 0.3,
+          "contribution": 5.4
+        },
+        "enablement": {
+          "raw": 81.34,
+          "score": 26.2,
+          "weight": 0.3,
+          "contribution": 7.9
+        },
+        "complexity": {
+          "raw": 5.7,
+          "score": 14.4,
+          "weight": 0.25,
+          "contribution": 3.6
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 7,
+        "issues_closed": 0,
+        "total_additions": 359,
+        "total_deletions": 97,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 28,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 21.9,
+        "avg_discussion_comments_per_pr": 5.7,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Submitted 28 reviews with 0.7 comments per review and a median response time of 21.9 hours.",
+        "Merged 7 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 5.7 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "andrewjmcgehee",
+        "display_name": "andrewjmcgehee",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23667085?v=4",
+        "profile_url": "https://github.com/andrewjmcgehee"
+      },
+      "ranking": {
+        "rank": 43,
+        "impact_score": 19.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 9.0,
+          "score": 23.1,
+          "weight": 0.3,
+          "contribution": 6.9
+        },
+        "enablement": {
+          "raw": 47.65,
+          "score": 15.3,
+          "weight": 0.3,
+          "contribution": 4.6
+        },
+        "complexity": {
+          "raw": 5.7,
+          "score": 14.4,
+          "weight": 0.25,
+          "contribution": 3.6
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 9,
+        "issues_closed": 0,
+        "total_additions": 2691,
+        "total_deletions": 155,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 18,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 42.7,
+        "avg_discussion_comments_per_pr": 5.7,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 9 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 18 reviews with 0.6 comments per review and a median response time of 42.7 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "gesh",
+        "display_name": "gesh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6430745?u=463890386105e77f440c18d70abb0175871fe819&v=4",
+        "profile_url": "https://github.com/gesh"
+      },
+      "ranking": {
+        "rank": 44,
+        "impact_score": 19.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 31.41,
+          "score": 10.1,
+          "weight": 0.3,
+          "contribution": 3.0
+        },
+        "complexity": {
+          "raw": 18.5,
+          "score": 46.8,
+          "weight": 0.25,
+          "contribution": 11.7
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 2181,
+        "total_deletions": 215,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 13,
+        "avg_comments_per_review": 0.3,
+        "median_response_hours": 18.5,
+        "avg_discussion_comments_per_pr": 18.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Handled 18.5 discussion comments per merged PR.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Submitted 13 reviews with 0.3 comments per review and a median response time of 18.5 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "orian",
+        "display_name": "orian",
+        "avatar_url": "https://avatars.githubusercontent.com/u/144554?v=4",
+        "profile_url": "https://github.com/orian"
+      },
+      "ranking": {
+        "rank": 45,
+        "impact_score": 18.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 9.0,
+          "score": 23.1,
+          "weight": 0.3,
+          "contribution": 6.9
+        },
+        "enablement": {
+          "raw": 59.96,
+          "score": 19.3,
+          "weight": 0.3,
+          "contribution": 5.8
+        },
+        "complexity": {
+          "raw": 2.2,
+          "score": 5.6,
+          "weight": 0.25,
+          "contribution": 1.4
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 9,
+        "issues_closed": 0,
+        "total_additions": 841,
+        "total_deletions": 419,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 21,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 12.4,
+        "avg_discussion_comments_per_pr": 2.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 9 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 21 reviews with 0.6 comments per review and a median response time of 12.4 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "andyzzhao",
+        "display_name": "andyzzhao",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34008309?u=8eb88ef53516ca25323feda4edddcda04d01db26&v=4",
+        "profile_url": "https://github.com/andyzzhao"
+      },
+      "ranking": {
+        "rank": 46,
+        "impact_score": 18.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 7.0,
+          "score": 17.9,
+          "weight": 0.3,
+          "contribution": 5.4
+        },
+        "enablement": {
+          "raw": 68.57,
+          "score": 22.1,
+          "weight": 0.3,
+          "contribution": 6.6
+        },
+        "complexity": {
+          "raw": 5.1,
+          "score": 12.9,
+          "weight": 0.25,
+          "contribution": 3.2
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 7,
+        "issues_closed": 0,
+        "total_additions": 871,
+        "total_deletions": 227,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 26,
+        "avg_comments_per_review": 0.4,
+        "median_response_hours": 5.8,
+        "avg_discussion_comments_per_pr": 5.1,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Submitted 26 reviews with 0.4 comments per review and a median response time of 5.8 hours.",
+        "Merged 7 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 3 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "hpouillot",
+        "display_name": "hpouillot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3455883?u=1740ca24290de1e0d5ea3ac9d0c0bf106a8efc78&v=4",
+        "profile_url": "https://github.com/hpouillot"
+      },
+      "ranking": {
+        "rank": 47,
+        "impact_score": 17.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 8.0,
+          "score": 20.5,
+          "weight": 0.3,
+          "contribution": 6.2
+        },
+        "enablement": {
+          "raw": 50.65,
+          "score": 16.3,
+          "weight": 0.3,
+          "contribution": 4.9
+        },
+        "complexity": {
+          "raw": 3.1,
+          "score": 7.8,
+          "weight": 0.25,
+          "contribution": 2.0
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 8,
+        "issues_closed": 0,
+        "total_additions": 963,
+        "total_deletions": 175,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 15,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 1.3,
+        "avg_discussion_comments_per_pr": 3.1,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 8 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 15 reviews with 1.0 comments per review and a median response time of 1.3 hours.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "lricoy",
+        "display_name": "lricoy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2034367?v=4",
+        "profile_url": "https://github.com/lricoy"
+      },
+      "ranking": {
+        "rank": 48,
+        "impact_score": 17.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 7.0,
+          "score": 17.9,
+          "weight": 0.3,
+          "contribution": 5.4
+        },
+        "enablement": {
+          "raw": 57.04,
+          "score": 18.4,
+          "weight": 0.3,
+          "contribution": 5.5
+        },
+        "complexity": {
+          "raw": 2.9,
+          "score": 7.3,
+          "weight": 0.25,
+          "contribution": 1.8
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 7,
+        "issues_closed": 0,
+        "total_additions": 1329,
+        "total_deletions": 80,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 21,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 14.5,
+        "avg_discussion_comments_per_pr": 2.9,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Submitted 21 reviews with 0.5 comments per review and a median response time of 14.5 hours.",
+        "Merged 7 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "jordanm-posthog",
+        "display_name": "jordanm-posthog",
+        "avatar_url": "https://avatars.githubusercontent.com/u/245956587?v=4",
+        "profile_url": "https://github.com/jordanm-posthog"
+      },
+      "ranking": {
+        "rank": 49,
+        "impact_score": 17.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 8.0,
+          "score": 20.5,
+          "weight": 0.3,
+          "contribution": 6.2
+        },
+        "enablement": {
+          "raw": 21.2,
+          "score": 6.8,
+          "weight": 0.3,
+          "contribution": 2.0
+        },
+        "complexity": {
+          "raw": 6.9,
+          "score": 17.5,
+          "weight": 0.25,
+          "contribution": 4.4
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 8,
+        "issues_closed": 0,
+        "total_additions": 2935,
+        "total_deletions": 347,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 8,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 70.8,
+        "avg_discussion_comments_per_pr": 6.9,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 8 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Handled 6.9 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "andehen",
+        "display_name": "andehen",
+        "avatar_url": "https://avatars.githubusercontent.com/u/754494?u=81d4e83eca037fd7fe39c0419dc15e52cbaca2a5&v=4",
+        "profile_url": "https://github.com/andehen"
+      },
+      "ranking": {
+        "rank": 50,
+        "impact_score": 16.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 9.0,
+          "score": 23.1,
+          "weight": 0.3,
+          "contribution": 6.9
+        },
+        "enablement": {
+          "raw": 40.03,
+          "score": 12.9,
+          "weight": 0.3,
+          "contribution": 3.9
+        },
+        "complexity": {
+          "raw": 2.4,
+          "score": 6.1,
+          "weight": 0.25,
+          "contribution": 1.5
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 9,
+        "issues_closed": 0,
+        "total_additions": 583,
+        "total_deletions": 187,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 17,
+        "avg_comments_per_review": 0.2,
+        "median_response_hours": 1.9,
+        "avg_discussion_comments_per_pr": 2.4,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 9 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Submitted 17 reviews with 0.2 comments per review and a median response time of 1.9 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "danielxnj",
+        "display_name": "danielxnj",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115043334?u=1a50b6525b95dac99db9cbd203edb643b62c915b&v=4",
+        "profile_url": "https://github.com/danielxnj"
+      },
+      "ranking": {
+        "rank": 51,
+        "impact_score": 16.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 18.96,
+          "score": 6.1,
+          "weight": 0.3,
+          "contribution": 1.8
+        },
+        "complexity": {
+          "raw": 17.0,
+          "score": 43.0,
+          "weight": 0.25,
+          "contribution": 10.8
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 680,
+        "total_deletions": 41,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 6,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 2.2,
+        "avg_discussion_comments_per_pr": 17.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Handled 17.0 discussion comments per merged PR.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Submitted 6 reviews with 0.8 comments per review and a median response time of 2.2 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "ordehi",
+        "display_name": "ordehi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45109738?u=da5d61cd65492a0ad8e6e9a8d00dc56574120d50&v=4",
+        "profile_url": "https://github.com/ordehi"
+      },
+      "ranking": {
+        "rank": 52,
+        "impact_score": 16.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 13.0,
+          "score": 33.3,
+          "weight": 0.3,
+          "contribution": 10.0
+        },
+        "enablement": {
+          "raw": 6.74,
+          "score": 2.2,
+          "weight": 0.3,
+          "contribution": 0.7
+        },
+        "complexity": {
+          "raw": 2.2,
+          "score": 5.6,
+          "weight": 0.25,
+          "contribution": 1.4
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 13,
+        "issues_closed": 0,
+        "total_additions": 1032,
+        "total_deletions": 221,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 2,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 2.4,
+        "avg_discussion_comments_per_pr": 2.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 13 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Handled 2.2 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "rodrigoi",
+        "display_name": "rodrigoi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/233601?u=db67c89752694b0d46fb426e23b669f3f1734601&v=4",
+        "profile_url": "https://github.com/rodrigoi"
+      },
+      "ranking": {
+        "rank": 53,
+        "impact_score": 14.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 8.0,
+          "score": 20.5,
+          "weight": 0.3,
+          "contribution": 6.2
+        },
+        "enablement": {
+          "raw": 41.95,
+          "score": 13.5,
+          "weight": 0.3,
+          "contribution": 4.0
+        },
+        "complexity": {
+          "raw": 1.9,
+          "score": 4.8,
+          "weight": 0.25,
+          "contribution": 1.2
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 8,
+        "issues_closed": 0,
+        "total_additions": 1102,
+        "total_deletions": 402,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 15,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 2.3,
+        "avg_discussion_comments_per_pr": 1.9,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 8 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 15 reviews with 0.5 comments per review and a median response time of 2.3 hours.",
+        "Stayed active in 3 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "pawel-cebula",
+        "display_name": "pawel-cebula",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28671716?u=c0d902ec27ca6d3154f58d61a236479e69be2f84&v=4",
+        "profile_url": "https://github.com/pawel-cebula"
+      },
+      "ranking": {
+        "rank": 54,
+        "impact_score": 14.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 7.0,
+          "score": 17.9,
+          "weight": 0.3,
+          "contribution": 5.4
+        },
+        "enablement": {
+          "raw": 31.42,
+          "score": 10.1,
+          "weight": 0.3,
+          "contribution": 3.0
+        },
+        "complexity": {
+          "raw": 2.4,
+          "score": 6.1,
+          "weight": 0.25,
+          "contribution": 1.5
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 7,
+        "issues_closed": 0,
+        "total_additions": 1335,
+        "total_deletions": 309,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 8,
+        "avg_comments_per_review": 1.8,
+        "median_response_hours": 14.0,
+        "avg_discussion_comments_per_pr": 2.4,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 7 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Submitted 8 reviews with 1.8 comments per review and a median response time of 14.0 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "Radu-Raicea",
+        "display_name": "Radu-Raicea",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15457029?u=37ac4933e285fdf51c5a449ec948357944b4a1c4&v=4",
+        "profile_url": "https://github.com/Radu-Raicea"
+      },
+      "ranking": {
+        "rank": 55,
+        "impact_score": 14.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 4.0,
+          "score": 10.3,
+          "weight": 0.3,
+          "contribution": 3.1
+        },
+        "enablement": {
+          "raw": 77.42,
+          "score": 24.9,
+          "weight": 0.3,
+          "contribution": 7.5
+        },
+        "complexity": {
+          "raw": 2.2,
+          "score": 5.6,
+          "weight": 0.25,
+          "contribution": 1.4
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 4,
+        "issues_closed": 0,
+        "total_additions": 612,
+        "total_deletions": 62,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 28,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 7.1,
+        "avg_discussion_comments_per_pr": 2.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Submitted 28 reviews with 0.5 comments per review and a median response time of 7.1 hours.",
+        "Merged 4 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 2 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "estefaniarabadan",
+        "display_name": "estefaniarabadan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10627591?u=ab8490e8193ca5888caab04db5ef0c84b96a2baf&v=4",
+        "profile_url": "https://github.com/estefaniarabadan"
+      },
+      "ranking": {
+        "rank": 56,
+        "impact_score": 13.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 4.0,
+          "score": 10.3,
+          "weight": 0.3,
+          "contribution": 3.1
+        },
+        "enablement": {
+          "raw": 45.3,
+          "score": 14.6,
+          "weight": 0.3,
+          "contribution": 4.4
+        },
+        "complexity": {
+          "raw": 2.5,
+          "score": 6.3,
+          "weight": 0.25,
+          "contribution": 1.6
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 4,
+        "issues_closed": 0,
+        "total_additions": 116,
+        "total_deletions": 8,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 17,
+        "avg_comments_per_review": 0.4,
+        "median_response_hours": 1.4,
+        "avg_discussion_comments_per_pr": 2.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Submitted 17 reviews with 0.4 comments per review and a median response time of 1.4 hours.",
+        "Merged 4 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "yasen-posthog",
+        "display_name": "yasen-posthog",
+        "avatar_url": "https://avatars.githubusercontent.com/u/213223200?v=4",
+        "profile_url": "https://github.com/yasen-posthog"
+      },
+      "ranking": {
+        "rank": 57,
+        "impact_score": 13.5
+      },
+      "scores": {
+        "shipping": {
+          "raw": 6.0,
+          "score": 15.4,
+          "weight": 0.3,
+          "contribution": 4.6
+        },
+        "enablement": {
+          "raw": 27.22,
+          "score": 8.8,
+          "weight": 0.3,
+          "contribution": 2.6
+        },
+        "complexity": {
+          "raw": 6.3,
+          "score": 15.9,
+          "weight": 0.25,
+          "contribution": 4.0
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 6,
+        "issues_closed": 0,
+        "total_additions": 3333,
+        "total_deletions": 154,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 10,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 13.6,
+        "avg_discussion_comments_per_pr": 6.3,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Merged 6 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 6.3 discussion comments per merged PR.",
+        "Submitted 10 reviews with 0.5 comments per review and a median response time of 13.6 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "jurajmajerik",
+        "display_name": "jurajmajerik",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22996112?v=4",
+        "profile_url": "https://github.com/jurajmajerik"
+      },
+      "ranking": {
+        "rank": 58,
+        "impact_score": 13.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 8.0,
+          "score": 20.5,
+          "weight": 0.3,
+          "contribution": 6.2
+        },
+        "enablement": {
+          "raw": 11.97,
+          "score": 3.9,
+          "weight": 0.3,
+          "contribution": 1.2
+        },
+        "complexity": {
+          "raw": 2.2,
+          "score": 5.6,
+          "weight": 0.25,
+          "contribution": 1.4
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 8,
+        "issues_closed": 0,
+        "total_additions": 947,
+        "total_deletions": 355,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 6,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 1.2,
+        "avg_discussion_comments_per_pr": 2.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Merged 8 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Handled 2.2 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "nickbest-ph",
+        "display_name": "nickbest-ph",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206742387?u=0fee4599f3dce4aa25abb445922f613e303475a5&v=4",
+        "profile_url": "https://github.com/nickbest-ph"
+      },
+      "ranking": {
+        "rank": 59,
+        "impact_score": 12.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 6.0,
+          "score": 15.4,
+          "weight": 0.3,
+          "contribution": 4.6
+        },
+        "enablement": {
+          "raw": 30.52,
+          "score": 9.8,
+          "weight": 0.3,
+          "contribution": 2.9
+        },
+        "complexity": {
+          "raw": 3.0,
+          "score": 7.6,
+          "weight": 0.25,
+          "contribution": 1.9
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 6,
+        "issues_closed": 0,
+        "total_additions": 1944,
+        "total_deletions": 70,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 13,
+        "avg_comments_per_review": 0.2,
+        "median_response_hours": 3.1,
+        "avg_discussion_comments_per_pr": 3.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 6 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Submitted 13 reviews with 0.2 comments per review and a median response time of 3.1 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "mariusandra",
+        "display_name": "mariusandra",
+        "avatar_url": "https://avatars.githubusercontent.com/u/53387?u=fff0dd833220dc640f9c50d6f8a9dadc74e1896e&v=4",
+        "profile_url": "https://github.com/mariusandra"
+      },
+      "ranking": {
+        "rank": 60,
+        "impact_score": 12.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 74.15,
+          "score": 23.9,
+          "weight": 0.3,
+          "contribution": 7.2
+        },
+        "complexity": {
+          "raw": 1.0,
+          "score": 2.5,
+          "weight": 0.25,
+          "contribution": 0.6
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 847,
+        "total_deletions": 58,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 27,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 9.9,
+        "avg_discussion_comments_per_pr": 1.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Submitted 27 reviews with 0.5 comments per review and a median response time of 9.9 hours.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "EDsCODE",
+        "display_name": "EDsCODE",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13127476?u=2a386defcb1d46405ed55144922da81fe9c1d00e&v=4",
+        "profile_url": "https://github.com/EDsCODE"
+      },
+      "ranking": {
+        "rank": 61,
+        "impact_score": 12.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 29.98,
+          "score": 9.6,
+          "weight": 0.3,
+          "contribution": 2.9
+        },
+        "complexity": {
+          "raw": 4.0,
+          "score": 10.1,
+          "weight": 0.25,
+          "contribution": 2.5
+        },
+        "consistency": {
+          "raw": 38.46,
+          "score": 38.5,
+          "weight": 0.15,
+          "contribution": 5.8
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 112,
+        "total_deletions": 82,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 11,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 13.1,
+        "avg_discussion_comments_per_pr": 4.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 5
+      },
+      "why_it_matters": [
+        "Stayed active in 5 of 13 calendar weeks.",
+        "Submitted 11 reviews with 0.5 comments per review and a median response time of 13.1 hours.",
+        "Handled 4.0 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "luke-belton",
+        "display_name": "luke-belton",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58511679?v=4",
+        "profile_url": "https://github.com/luke-belton"
+      },
+      "ranking": {
+        "rank": 62,
+        "impact_score": 11.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 7.0,
+          "score": 17.9,
+          "weight": 0.3,
+          "contribution": 5.4
+        },
+        "enablement": {
+          "raw": 14.56,
+          "score": 4.7,
+          "weight": 0.3,
+          "contribution": 1.4
+        },
+        "complexity": {
+          "raw": 2.6,
+          "score": 6.6,
+          "weight": 0.25,
+          "contribution": 1.6
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 7,
+        "issues_closed": 0,
+        "total_additions": 429,
+        "total_deletions": 106,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 5,
+        "avg_comments_per_review": 0.6,
+        "median_response_hours": 4.1,
+        "avg_discussion_comments_per_pr": 2.6,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 7 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Handled 2.6 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "anirudhpillai",
+        "display_name": "anirudhpillai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15368923?u=6b75e12a39f332bf9025afb0a2e2a140468582df&v=4",
+        "profile_url": "https://github.com/anirudhpillai"
+      },
+      "ranking": {
+        "rank": 63,
+        "impact_score": 11.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 3.0,
+          "score": 7.7,
+          "weight": 0.3,
+          "contribution": 2.3
+        },
+        "enablement": {
+          "raw": 22.15,
+          "score": 7.1,
+          "weight": 0.3,
+          "contribution": 2.1
+        },
+        "complexity": {
+          "raw": 6.3,
+          "score": 15.9,
+          "weight": 0.25,
+          "contribution": 4.0
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 3,
+        "issues_closed": 0,
+        "total_additions": 1160,
+        "total_deletions": 231,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 12,
+        "avg_comments_per_review": 0.2,
+        "median_response_hours": 93.8,
+        "avg_discussion_comments_per_pr": 6.3,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Handled 6.3 discussion comments per merged PR.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Merged 3 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "daibhin",
+        "display_name": "daibhin",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6685876?u=ce27c6c84679269b524b624c3f38712b288f227d&v=4",
+        "profile_url": "https://github.com/daibhin"
+      },
+      "ranking": {
+        "rank": 64,
+        "impact_score": 11.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 13.06,
+          "score": 4.2,
+          "weight": 0.3,
+          "contribution": 1.3
+        },
+        "complexity": {
+          "raw": 10.5,
+          "score": 26.6,
+          "weight": 0.25,
+          "contribution": 6.6
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 625,
+        "total_deletions": 563,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 5,
+        "avg_comments_per_review": 0.4,
+        "median_response_hours": 9.7,
+        "avg_discussion_comments_per_pr": 10.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Handled 10.5 discussion comments per merged PR.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "dmarticus",
+        "display_name": "dmarticus",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4853149?v=4",
+        "profile_url": "https://github.com/dmarticus"
+      },
+      "ranking": {
+        "rank": 65,
+        "impact_score": 11.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 34.1,
+          "score": 11.0,
+          "weight": 0.3,
+          "contribution": 3.3
+        },
+        "complexity": {
+          "raw": 4.5,
+          "score": 11.4,
+          "weight": 0.25,
+          "contribution": 2.8
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 149,
+        "total_deletions": 139,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 11,
+        "avg_comments_per_review": 0.9,
+        "median_response_hours": 24.0,
+        "avg_discussion_comments_per_pr": 4.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Submitted 11 reviews with 0.9 comments per review and a median response time of 24.0 hours.",
+        "Handled 4.5 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "carlos-marchal-ph",
+        "display_name": "carlos-marchal-ph",
+        "avatar_url": "https://avatars.githubusercontent.com/u/228468567?u=70aa8eb992538175861e2eaa6b5f8efa89991f7d&v=4",
+        "profile_url": "https://github.com/carlos-marchal-ph"
+      },
+      "ranking": {
+        "rank": 66,
+        "impact_score": 11.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 5.0,
+          "score": 12.8,
+          "weight": 0.3,
+          "contribution": 3.8
+        },
+        "enablement": {
+          "raw": 27.16,
+          "score": 8.7,
+          "weight": 0.3,
+          "contribution": 2.6
+        },
+        "complexity": {
+          "raw": 1.8,
+          "score": 4.6,
+          "weight": 0.25,
+          "contribution": 1.1
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 5,
+        "issues_closed": 0,
+        "total_additions": 162,
+        "total_deletions": 29,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 12,
+        "avg_comments_per_review": 0.2,
+        "median_response_hours": 18.4,
+        "avg_discussion_comments_per_pr": 1.8,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Merged 5 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Submitted 12 reviews with 0.2 comments per review and a median response time of 18.4 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "dmiska25",
+        "display_name": "dmiska25",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73676469?v=4",
+        "profile_url": "https://github.com/dmiska25"
+      },
+      "ranking": {
+        "rank": 67,
+        "impact_score": 11.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 9.87,
+          "score": 3.2,
+          "weight": 0.3,
+          "contribution": 1.0
+        },
+        "complexity": {
+          "raw": 8.0,
+          "score": 20.2,
+          "weight": 0.25,
+          "contribution": 5.1
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 211,
+        "total_deletions": 41,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 3,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 12.4,
+        "avg_discussion_comments_per_pr": 8.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Handled 8.0 discussion comments per merged PR.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "ProCO-RPHopkins",
+        "display_name": "ProCO-RPHopkins",
+        "avatar_url": "https://avatars.githubusercontent.com/u/125163543?v=4",
+        "profile_url": "https://github.com/ProCO-RPHopkins"
+      },
+      "ranking": {
+        "rank": 68,
+        "impact_score": 10.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 14.0,
+          "score": 35.4,
+          "weight": 0.25,
+          "contribution": 8.9
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 109,
+        "total_deletions": 14,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 14.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Handled 14.0 discussion comments per merged PR.",
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "a-lider",
+        "display_name": "a-lider",
+        "avatar_url": "https://avatars.githubusercontent.com/u/221966567?v=4",
+        "profile_url": "https://github.com/a-lider"
+      },
+      "ranking": {
+        "rank": 69,
+        "impact_score": 10.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 3.0,
+          "score": 7.7,
+          "weight": 0.3,
+          "contribution": 2.3
+        },
+        "enablement": {
+          "raw": 25.92,
+          "score": 8.3,
+          "weight": 0.3,
+          "contribution": 2.5
+        },
+        "complexity": {
+          "raw": 5.7,
+          "score": 14.4,
+          "weight": 0.25,
+          "contribution": 3.6
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 3,
+        "issues_closed": 0,
+        "total_additions": 397,
+        "total_deletions": 6,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 10,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 100.3,
+        "avg_discussion_comments_per_pr": 5.7,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Handled 5.7 discussion comments per merged PR.",
+        "Submitted 10 reviews with 1.0 comments per review and a median response time of 100.3 hours.",
+        "Merged 3 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "Twixes",
+        "display_name": "Twixes",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4550621?v=4",
+        "profile_url": "https://github.com/Twixes"
+      },
+      "ranking": {
+        "rank": 70,
+        "impact_score": 10.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 3.0,
+          "score": 7.7,
+          "weight": 0.3,
+          "contribution": 2.3
+        },
+        "enablement": {
+          "raw": 14.19,
+          "score": 4.6,
+          "weight": 0.3,
+          "contribution": 1.4
+        },
+        "complexity": {
+          "raw": 3.7,
+          "score": 9.4,
+          "weight": 0.25,
+          "contribution": 2.3
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 3,
+        "issues_closed": 0,
+        "total_additions": 158,
+        "total_deletions": 6,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 6,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 97.4,
+        "avg_discussion_comments_per_pr": 3.7,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Merged 3 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 3.7 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "bciaraldi",
+        "display_name": "bciaraldi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7735914?v=4",
+        "profile_url": "https://github.com/bciaraldi"
+      },
+      "ranking": {
+        "rank": 71,
+        "impact_score": 10.4
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 9.98,
+          "score": 3.2,
+          "weight": 0.3,
+          "contribution": 1.0
+        },
+        "complexity": {
+          "raw": 7.0,
+          "score": 17.7,
+          "weight": 0.25,
+          "contribution": 4.4
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 267,
+        "total_deletions": 129,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 5,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 0.9,
+        "avg_discussion_comments_per_pr": 7.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Handled 7.0 discussion comments per merged PR.",
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "robbie-c",
+        "display_name": "robbie-c",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2056078?v=4",
+        "profile_url": "https://github.com/robbie-c"
+      },
+      "ranking": {
+        "rank": 72,
+        "impact_score": 9.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 4.0,
+          "score": 10.3,
+          "weight": 0.3,
+          "contribution": 3.1
+        },
+        "enablement": {
+          "raw": 20.83,
+          "score": 6.7,
+          "weight": 0.3,
+          "contribution": 2.0
+        },
+        "complexity": {
+          "raw": 3.8,
+          "score": 9.6,
+          "weight": 0.25,
+          "contribution": 2.4
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 4,
+        "issues_closed": 0,
+        "total_additions": 523,
+        "total_deletions": 231,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 8,
+        "avg_comments_per_review": 0.4,
+        "median_response_hours": 11.1,
+        "avg_discussion_comments_per_pr": 3.8,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Merged 4 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 3.8 discussion comments per merged PR.",
+        "Stayed active in 2 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "k11kirky",
+        "display_name": "k11kirky",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4571455?v=4",
+        "profile_url": "https://github.com/k11kirky"
+      },
+      "ranking": {
+        "rank": 73,
+        "impact_score": 9.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 9.18,
+          "score": 3.0,
+          "weight": 0.3,
+          "contribution": 0.9
+        },
+        "complexity": {
+          "raw": 8.0,
+          "score": 20.2,
+          "weight": 0.25,
+          "contribution": 5.1
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 226,
+        "total_deletions": 3,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 3,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 0.3,
+        "avg_discussion_comments_per_pr": 8.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Handled 8.0 discussion comments per merged PR.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "charlesvien",
+        "display_name": "charlesvien",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5378415?v=4",
+        "profile_url": "https://github.com/charlesvien"
+      },
+      "ranking": {
+        "rank": 74,
+        "impact_score": 9.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 5.35,
+          "score": 1.7,
+          "weight": 0.3,
+          "contribution": 0.5
+        },
+        "complexity": {
+          "raw": 8.5,
+          "score": 21.5,
+          "weight": 0.25,
+          "contribution": 5.4
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 242,
+        "total_deletions": 57,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 2,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 21.0,
+        "avg_discussion_comments_per_pr": 8.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Handled 8.5 discussion comments per merged PR.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "dustinbyrne",
+        "display_name": "dustinbyrne",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8737782?u=0e8558f05d919f7ce00fa0d40ac9c563c488cd52&v=4",
+        "profile_url": "https://github.com/dustinbyrne"
+      },
+      "ranking": {
+        "rank": 75,
+        "impact_score": 9.5
+      },
+      "scores": {
+        "shipping": {
+          "raw": 3.0,
+          "score": 7.7,
+          "weight": 0.3,
+          "contribution": 2.3
+        },
+        "enablement": {
+          "raw": 32.24,
+          "score": 10.4,
+          "weight": 0.3,
+          "contribution": 3.1
+        },
+        "complexity": {
+          "raw": 1.0,
+          "score": 2.5,
+          "weight": 0.25,
+          "contribution": 0.6
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 3,
+        "issues_closed": 0,
+        "total_additions": 386,
+        "total_deletions": 61,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 15,
+        "avg_comments_per_review": 0.1,
+        "median_response_hours": 8.1,
+        "avg_discussion_comments_per_pr": 1.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Submitted 15 reviews with 0.1 comments per review and a median response time of 8.1 hours.",
+        "Merged 3 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "clr182",
+        "display_name": "clr182",
+        "avatar_url": "https://avatars.githubusercontent.com/u/38156512?u=ccc9a9abd95f6b6b90fa4603376753a3a20fca4e&v=4",
+        "profile_url": "https://github.com/clr182"
+      },
+      "ranking": {
+        "rank": 76,
+        "impact_score": 9.3
+      },
+      "scores": {
+        "shipping": {
+          "raw": 5.0,
+          "score": 12.8,
+          "weight": 0.3,
+          "contribution": 3.8
+        },
+        "enablement": {
+          "raw": 11.2,
+          "score": 3.6,
+          "weight": 0.3,
+          "contribution": 1.1
+        },
+        "complexity": {
+          "raw": 3.2,
+          "score": 8.1,
+          "weight": 0.25,
+          "contribution": 2.0
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 5,
+        "issues_closed": 0,
+        "total_additions": 797,
+        "total_deletions": 12,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 4,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 1.6,
+        "avg_discussion_comments_per_pr": 3.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Merged 5 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Handled 3.2 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "jonathanlab",
+        "display_name": "jonathanlab",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32547391?u=acbb14fe11e37326bfda60180f18ca84f0cb0b60&v=4",
+        "profile_url": "https://github.com/jonathanlab"
+      },
+      "ranking": {
+        "rank": 77,
+        "impact_score": 9.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 39.97,
+          "score": 12.9,
+          "weight": 0.3,
+          "contribution": 3.9
+        },
+        "complexity": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.25,
+          "contribution": 0.0
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 61,
+        "total_deletions": 1,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 20,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 0.4,
+        "avg_discussion_comments_per_pr": 0.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Submitted 20 reviews with 0.0 comments per review and a median response time of 0.4 hours.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "bill-ph",
+        "display_name": "bill-ph",
+        "avatar_url": "https://avatars.githubusercontent.com/u/244088850?v=4",
+        "profile_url": "https://github.com/bill-ph"
+      },
+      "ranking": {
+        "rank": 78,
+        "impact_score": 9.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 11.4,
+          "score": 3.7,
+          "weight": 0.3,
+          "contribution": 1.1
+        },
+        "complexity": {
+          "raw": 6.5,
+          "score": 16.5,
+          "weight": 0.25,
+          "contribution": 4.1
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 723,
+        "total_deletions": 415,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 5,
+        "avg_comments_per_review": 2.6,
+        "median_response_hours": 213.8,
+        "avg_discussion_comments_per_pr": 6.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Handled 6.5 discussion comments per merged PR.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "darkopia",
+        "display_name": "darkopia",
+        "avatar_url": "https://avatars.githubusercontent.com/u/80100530?u=49b034b7d423f83da26c1efd5b2fa015c6863688&v=4",
+        "profile_url": "https://github.com/darkopia"
+      },
+      "ranking": {
+        "rank": 79,
+        "impact_score": 7.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 7.99,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "complexity": {
+          "raw": 1.5,
+          "score": 3.8,
+          "weight": 0.25,
+          "contribution": 0.9
+        },
+        "consistency": {
+          "raw": 30.77,
+          "score": 30.8,
+          "weight": 0.15,
+          "contribution": 4.6
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 119,
+        "total_deletions": 2,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 4,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 0.5,
+        "avg_discussion_comments_per_pr": 1.5,
+        "total_issue_age_days": 0,
+        "active_weeks": 4
+      },
+      "why_it_matters": [
+        "Stayed active in 4 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 1.5 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "aspicer",
+        "display_name": "aspicer",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1855120?u=c16a7a4c510e00fc2c0d0a2b064e82af6aa80020&v=4",
+        "profile_url": "https://github.com/aspicer"
+      },
+      "ranking": {
+        "rank": 80,
+        "impact_score": 7.5
+      },
+      "scores": {
+        "shipping": {
+          "raw": 3.0,
+          "score": 7.7,
+          "weight": 0.3,
+          "contribution": 2.3
+        },
+        "enablement": {
+          "raw": 5.58,
+          "score": 1.8,
+          "weight": 0.3,
+          "contribution": 0.5
+        },
+        "complexity": {
+          "raw": 3.7,
+          "score": 9.4,
+          "weight": 0.25,
+          "contribution": 2.3
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 3,
+        "issues_closed": 0,
+        "total_additions": 504,
+        "total_deletions": 26,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 2,
+        "avg_comments_per_review": 0.5,
+        "median_response_hours": 3.0,
+        "avg_discussion_comments_per_pr": 3.7,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Merged 3 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 3.7 discussion comments per merged PR.",
+        "Stayed active in 2 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "sortafreel",
+        "display_name": "sortafreel",
+        "avatar_url": "https://avatars.githubusercontent.com/u/354488?u=30ab30c95bc5de9038036f05fd532dae9ac9ac03&v=4",
+        "profile_url": "https://github.com/sortafreel"
+      },
+      "ranking": {
+        "rank": 81,
+        "impact_score": 7.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 8.98,
+          "score": 2.9,
+          "weight": 0.3,
+          "contribution": 0.9
+        },
+        "complexity": {
+          "raw": 4.0,
+          "score": 10.1,
+          "weight": 0.25,
+          "contribution": 2.5
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 128,
+        "total_deletions": 8,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 3,
+        "avg_comments_per_review": 0.7,
+        "median_response_hours": 9.4,
+        "avg_discussion_comments_per_pr": 4.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Handled 4.0 discussion comments per merged PR.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "zhou-quickli",
+        "display_name": "zhou-quickli",
+        "avatar_url": "https://avatars.githubusercontent.com/u/240831133?u=dc7fc84078f6bba6df69155a9bba742f0b3123f5&v=4",
+        "profile_url": "https://github.com/zhou-quickli"
+      },
+      "ranking": {
+        "rank": 82,
+        "impact_score": 7.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 3.0,
+          "score": 7.7,
+          "weight": 0.3,
+          "contribution": 2.3
+        },
+        "enablement": {
+          "raw": 3.39,
+          "score": 1.1,
+          "weight": 0.3,
+          "contribution": 0.3
+        },
+        "complexity": {
+          "raw": 3.25,
+          "score": 8.2,
+          "weight": 0.25,
+          "contribution": 2.1
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 1,
+        "total_additions": 35,
+        "total_deletions": 21,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 1,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 0.1,
+        "avg_discussion_comments_per_pr": 3.0,
+        "total_issue_age_days": 7.4,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Merged 1 PRs, closed 1 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Handled 3.0 discussion comments per merged PR and closed issues averaging 7 days old."
+      ]
+    },
+    {
+      "identity": {
+        "login": "Copilot",
+        "display_name": "Copilot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+        "profile_url": "https://github.com/apps/copilot-swe-agent"
+      },
+      "ranking": {
+        "rank": 83,
+        "impact_score": 7.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 8.0,
+          "score": 20.2,
+          "weight": 0.25,
+          "contribution": 5.1
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 31,
+        "total_deletions": 3,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 8.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Handled 8.0 discussion comments per merged PR.",
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "timgl",
+        "display_name": "timgl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1727427?v=4",
+        "profile_url": "https://github.com/timgl"
+      },
+      "ranking": {
+        "rank": 84,
+        "impact_score": 6.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "enablement": {
+          "raw": 11.83,
+          "score": 3.8,
+          "weight": 0.3,
+          "contribution": 1.1
+        },
+        "complexity": {
+          "raw": 3.0,
+          "score": 7.6,
+          "weight": 0.25,
+          "contribution": 1.9
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 2,
+        "issues_closed": 0,
+        "total_additions": 178,
+        "total_deletions": 59,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 6,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 6.0,
+        "avg_discussion_comments_per_pr": 3.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Handled 3.0 discussion comments per merged PR.",
+        "Merged 2 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "fuziontech",
+        "display_name": "fuziontech",
+        "avatar_url": "https://avatars.githubusercontent.com/u/391319?u=653d605da3baa9badfc2b1d2783010c4858646a0&v=4",
+        "profile_url": "https://github.com/fuziontech"
+      },
+      "ranking": {
+        "rank": 85,
+        "impact_score": 6.5
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 15.33,
+          "score": 4.9,
+          "weight": 0.3,
+          "contribution": 1.5
+        },
+        "complexity": {
+          "raw": 3.0,
+          "score": 7.6,
+          "weight": 0.25,
+          "contribution": 1.9
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 63,
+        "total_deletions": 6,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 7,
+        "avg_comments_per_review": 0.1,
+        "median_response_hours": 0.2,
+        "avg_discussion_comments_per_pr": 3.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Handled 3.0 discussion comments per merged PR.",
+        "Submitted 7 reviews with 0.1 comments per review and a median response time of 0.2 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "lshaowei18",
+        "display_name": "lshaowei18",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33112945?v=4",
+        "profile_url": "https://github.com/lshaowei18"
+      },
+      "ranking": {
+        "rank": 86,
+        "impact_score": 6.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 3.0,
+          "score": 7.7,
+          "weight": 0.3,
+          "contribution": 2.3
+        },
+        "enablement": {
+          "raw": 1.84,
+          "score": 0.6,
+          "weight": 0.3,
+          "contribution": 0.2
+        },
+        "complexity": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.25,
+          "contribution": 1.3
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 3,
+        "issues_closed": 0,
+        "total_additions": 38,
+        "total_deletions": 11,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 1,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 195.0,
+        "avg_discussion_comments_per_pr": 2.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Merged 3 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Handled 2.0 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "edwinyjlim",
+        "display_name": "edwinyjlim",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1308609?v=4",
+        "profile_url": "https://github.com/edwinyjlim"
+      },
+      "ranking": {
+        "rank": 87,
+        "impact_score": 6.0
+      },
+      "scores": {
+        "shipping": {
+          "raw": 4.0,
+          "score": 10.3,
+          "weight": 0.3,
+          "contribution": 3.1
+        },
+        "enablement": {
+          "raw": 3.9,
+          "score": 1.3,
+          "weight": 0.3,
+          "contribution": 0.4
+        },
+        "complexity": {
+          "raw": 2.2,
+          "score": 5.6,
+          "weight": 0.25,
+          "contribution": 1.4
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 4,
+        "issues_closed": 0,
+        "total_additions": 18,
+        "total_deletions": 14,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 1,
+        "avg_comments_per_review": 2.0,
+        "median_response_hours": 30.3,
+        "avg_discussion_comments_per_pr": 2.2,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Merged 4 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 2.2 discussion comments per merged PR.",
+        "Stayed active in 1 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "GauravBansal29",
+        "display_name": "GauravBansal29",
+        "avatar_url": "https://avatars.githubusercontent.com/u/77917141?v=4",
+        "profile_url": "https://github.com/GauravBansal29"
+      },
+      "ranking": {
+        "rank": 88,
+        "impact_score": 5.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 3.0,
+          "score": 7.7,
+          "weight": 0.3,
+          "contribution": 2.3
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 3.77,
+          "score": 9.6,
+          "weight": 0.25,
+          "contribution": 2.4
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 1,
+        "total_additions": 39,
+        "total_deletions": 5,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 1.0,
+        "total_issue_age_days": 83.2,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Handled 1.0 discussion comments per merged PR and closed issues averaging 83 days old.",
+        "Merged 1 PRs, closed 1 issues, and earned a 0.0 cleanup bonus.",
+        "Stayed active in 1 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "mp-hog",
+        "display_name": "mp-hog",
+        "avatar_url": "https://avatars.githubusercontent.com/u/252936290?v=4",
+        "profile_url": "https://github.com/mp-hog"
+      },
+      "ranking": {
+        "rank": 89,
+        "impact_score": 5.8
+      },
+      "scores": {
+        "shipping": {
+          "raw": 4.0,
+          "score": 10.3,
+          "weight": 0.3,
+          "contribution": 3.1
+        },
+        "enablement": {
+          "raw": 3.29,
+          "score": 1.1,
+          "weight": 0.3,
+          "contribution": 0.3
+        },
+        "complexity": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.25,
+          "contribution": 1.3
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 4,
+        "issues_closed": 0,
+        "total_additions": 180,
+        "total_deletions": 88,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 1,
+        "avg_comments_per_review": 1.0,
+        "median_response_hours": 11.7,
+        "avg_discussion_comments_per_pr": 2.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Merged 4 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 2.0 discussion comments per merged PR.",
+        "Stayed active in 1 of 13 calendar weeks."
+      ]
+    },
+    {
+      "identity": {
+        "login": "langesven",
+        "display_name": "langesven",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6960726?u=39dc6914a79e22e90691aafddaa35a0e85ddb3b7&v=4",
+        "profile_url": "https://github.com/langesven"
+      },
+      "ranking": {
+        "rank": 90,
+        "impact_score": 5.4
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 6.0,
+          "score": 1.9,
+          "weight": 0.3,
+          "contribution": 0.6
+        },
+        "complexity": {
+          "raw": 1.0,
+          "score": 2.5,
+          "weight": 0.25,
+          "contribution": 0.6
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 4,
+        "total_deletions": 1,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 3,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 0.3,
+        "avg_discussion_comments_per_pr": 1.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Submitted 3 reviews with 0.0 comments per review and a median response time of 0.3 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "patricio-posthog",
+        "display_name": "patricio-posthog",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181578370?u=0bb0581519eefc7a108f5f265040942f53f28b28&v=4",
+        "profile_url": "https://github.com/patricio-posthog"
+      },
+      "ranking": {
+        "rank": 91,
+        "impact_score": 4.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "enablement": {
+          "raw": 11.97,
+          "score": 3.9,
+          "weight": 0.3,
+          "contribution": 1.2
+        },
+        "complexity": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.25,
+          "contribution": 0.0
+        },
+        "consistency": {
+          "raw": 23.08,
+          "score": 23.1,
+          "weight": 0.15,
+          "contribution": 3.5
+        }
+      },
+      "stats": {
+        "merged_prs": 0,
+        "issues_closed": 0,
+        "total_additions": 0,
+        "total_deletions": 0,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 6,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 1.2,
+        "avg_discussion_comments_per_pr": 0.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 3
+      },
+      "why_it_matters": [
+        "Stayed active in 3 of 13 calendar weeks.",
+        "Submitted 6 reviews with 0.0 comments per review and a median response time of 1.2 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "JJCLane",
+        "display_name": "JJCLane",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3543345?v=4",
+        "profile_url": "https://github.com/JJCLane"
+      },
+      "ranking": {
+        "rank": 92,
+        "impact_score": 4.5
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 4.0,
+          "score": 10.1,
+          "weight": 0.25,
+          "contribution": 2.5
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 5,
+        "total_deletions": 4,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 4.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Handled 4.0 discussion comments per merged PR.",
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "Daesgar",
+        "display_name": "Daesgar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7421248?v=4",
+        "profile_url": "https://github.com/Daesgar"
+      },
+      "ranking": {
+        "rank": 93,
+        "impact_score": 4.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "enablement": {
+          "raw": 18.97,
+          "score": 6.1,
+          "weight": 0.3,
+          "contribution": 1.8
+        },
+        "complexity": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.25,
+          "contribution": 0.0
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 0,
+        "issues_closed": 0,
+        "total_additions": 0,
+        "total_deletions": 0,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 6,
+        "avg_comments_per_review": 0.8,
+        "median_response_hours": 1.9,
+        "avg_discussion_comments_per_pr": 0.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Submitted 6 reviews with 0.8 comments per review and a median response time of 1.9 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "KaranPradhan266",
+        "display_name": "KaranPradhan266",
+        "avatar_url": "https://avatars.githubusercontent.com/u/78605930?v=4",
+        "profile_url": "https://github.com/KaranPradhan266"
+      },
+      "ranking": {
+        "rank": 94,
+        "impact_score": 3.2
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 2.0,
+          "score": 5.1,
+          "weight": 0.25,
+          "contribution": 1.3
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 2,
+        "total_deletions": 0,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 2.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Handled 2.0 discussion comments per merged PR.",
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus."
+      ]
+    },
+    {
+      "identity": {
+        "login": "MichaelKutsch-ph",
+        "display_name": "MichaelKutsch-ph",
+        "avatar_url": "https://avatars.githubusercontent.com/u/186825170?u=58b3b615f03d5df72b039042d0cd75968519869d&v=4",
+        "profile_url": "https://github.com/MichaelKutsch-ph"
+      },
+      "ranking": {
+        "rank": 95,
+        "impact_score": 2.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "enablement": {
+          "raw": 5.99,
+          "score": 1.9,
+          "weight": 0.3,
+          "contribution": 0.6
+        },
+        "complexity": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.25,
+          "contribution": 0.0
+        },
+        "consistency": {
+          "raw": 15.38,
+          "score": 15.4,
+          "weight": 0.15,
+          "contribution": 2.3
+        }
+      },
+      "stats": {
+        "merged_prs": 0,
+        "issues_closed": 0,
+        "total_additions": 0,
+        "total_deletions": 0,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 3,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 0.7,
+        "avg_discussion_comments_per_pr": 0.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 2
+      },
+      "why_it_matters": [
+        "Stayed active in 2 of 13 calendar weeks.",
+        "Submitted 3 reviews with 0.0 comments per review and a median response time of 0.7 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "abheek9",
+        "display_name": "abheek9",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7728266?v=4",
+        "profile_url": "https://github.com/abheek9"
+      },
+      "ranking": {
+        "rank": 96,
+        "impact_score": 2.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 1.33,
+          "score": 0.4,
+          "weight": 0.3,
+          "contribution": 0.1
+        },
+        "complexity": {
+          "raw": 1.0,
+          "score": 2.5,
+          "weight": 0.25,
+          "contribution": 0.6
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 11,
+        "total_deletions": 0,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 1,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 143.4,
+        "avg_discussion_comments_per_pr": 1.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 1.0 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "abigailbramble",
+        "display_name": "abigailbramble",
+        "avatar_url": "https://avatars.githubusercontent.com/u/51999607?v=4",
+        "profile_url": "https://github.com/abigailbramble"
+      },
+      "ranking": {
+        "rank": 97,
+        "impact_score": 2.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 1.0,
+          "score": 2.5,
+          "weight": 0.25,
+          "contribution": 0.6
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 6,
+        "total_deletions": 5,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 1.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 1.0 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "sayer122",
+        "display_name": "sayer122",
+        "avatar_url": "https://avatars.githubusercontent.com/u/95654598?v=4",
+        "profile_url": "https://github.com/sayer122"
+      },
+      "ranking": {
+        "rank": 98,
+        "impact_score": 2.6
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 1.0,
+          "score": 2.5,
+          "weight": 0.25,
+          "contribution": 0.6
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 1,
+        "total_deletions": 0,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 1.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 1.0 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "rorylshanks",
+        "display_name": "rorylshanks",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6383578?u=605800cb04316004a427c3085ebe6be9181f83b9&v=4",
+        "profile_url": "https://github.com/rorylshanks"
+      },
+      "ranking": {
+        "rank": 99,
+        "impact_score": 2.1
+      },
+      "scores": {
+        "shipping": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "enablement": {
+          "raw": 10.0,
+          "score": 3.2,
+          "weight": 0.3,
+          "contribution": 1.0
+        },
+        "complexity": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.25,
+          "contribution": 0.0
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 0,
+        "issues_closed": 0,
+        "total_additions": 0,
+        "total_deletions": 0,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 5,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 0.2,
+        "avg_discussion_comments_per_pr": 0.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Submitted 5 reviews with 0.0 comments per review and a median response time of 0.2 hours."
+      ]
+    },
+    {
+      "identity": {
+        "login": "carlosguso",
+        "display_name": "carlosguso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33915304?v=4",
+        "profile_url": "https://github.com/carlosguso"
+      },
+      "ranking": {
+        "rank": 100,
+        "impact_score": 1.9
+      },
+      "scores": {
+        "shipping": {
+          "raw": 1.0,
+          "score": 2.6,
+          "weight": 0.3,
+          "contribution": 0.8
+        },
+        "enablement": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "complexity": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.25,
+          "contribution": 0.0
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 1,
+        "issues_closed": 0,
+        "total_additions": 3,
+        "total_deletions": 2,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 0,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": null,
+        "avg_discussion_comments_per_pr": 0.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Merged 1 PRs, closed 0 issues, and earned a 0.0 cleanup bonus.",
+        "Handled 0.0 discussion comments per merged PR."
+      ]
+    },
+    {
+      "identity": {
+        "login": "gewenyu99",
+        "display_name": "gewenyu99",
+        "avatar_url": "https://avatars.githubusercontent.com/u/29069505?u=b792f6064657dd8f29a6ea2c12af5da40ae96856&v=4",
+        "profile_url": "https://github.com/gewenyu99"
+      },
+      "ranking": {
+        "rank": 101,
+        "impact_score": 1.7
+      },
+      "scores": {
+        "shipping": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.3,
+          "contribution": 0.0
+        },
+        "enablement": {
+          "raw": 5.98,
+          "score": 1.9,
+          "weight": 0.3,
+          "contribution": 0.6
+        },
+        "complexity": {
+          "raw": 0.0,
+          "score": 0.0,
+          "weight": 0.25,
+          "contribution": 0.0
+        },
+        "consistency": {
+          "raw": 7.69,
+          "score": 7.7,
+          "weight": 0.15,
+          "contribution": 1.2
+        }
+      },
+      "stats": {
+        "merged_prs": 0,
+        "issues_closed": 0,
+        "total_additions": 0,
+        "total_deletions": 0,
+        "code_reduction_bonus": 0.0,
+        "reviews_given": 3,
+        "avg_comments_per_review": 0.0,
+        "median_response_hours": 1.7,
+        "avg_discussion_comments_per_pr": 0.0,
+        "total_issue_age_days": 0,
+        "active_weeks": 1
+      },
+      "why_it_matters": [
+        "Stayed active in 1 of 13 calendar weeks.",
+        "Submitted 3 reviews with 0.0 comments per review and a median response time of 1.7 hours."
+      ]
+    }
+  ]
 }
