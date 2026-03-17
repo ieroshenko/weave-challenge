@@ -2,7 +2,6 @@ import { Card } from "./ui/card";
 import { ScoreSegmentBar } from "./score-segment-bar";
 import { StatChip } from "./stat-chip";
 import {
-  deriveInsights,
   getDisplayName,
   getInitials,
   getStats,
@@ -18,7 +17,6 @@ interface EngineerCardProps {
 
 export function EngineerCard({ engineer, rank, weights }: EngineerCardProps) {
   const stats = getStats(engineer);
-  const insights = deriveInsights(engineer);
 
   return (
     <Card className="overflow-hidden border-white/70 bg-gradient-to-br from-surface via-surface to-[#f3eadf] dark:border-white/10 dark:bg-[linear-gradient(135deg,rgba(25,27,26,0.96),rgba(18,19,19,0.92))]">
@@ -59,24 +57,6 @@ export function EngineerCard({ engineer, rank, weights }: EngineerCardProps) {
               </div>
               <div className="mt-1 text-sm text-ink/55 dark:text-white/55">@{engineer.login}</div>
             </div>
-          </div>
-
-          <div>
-            <div className="text-xs uppercase tracking-[0.18em] text-ink/45 dark:text-white/45">Why they rank here</div>
-            {insights.length > 0 ? (
-              <ul className="mt-3 space-y-2 text-sm leading-6 text-ink/75 dark:text-white/72">
-                {insights.map((insight) => (
-                  <li key={insight} className="flex gap-3">
-                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ink/70 dark:bg-white/70" />
-                    <span>{insight}</span>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <div className="mt-3 rounded-2xl border border-dashed border-ink/10 bg-ink/[0.03] px-4 py-3 text-sm text-ink/55 dark:border-white/10 dark:bg-white/5 dark:text-white/55">
-                Supporting explanation has not been generated yet.
-              </div>
-            )}
           </div>
 
           <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
