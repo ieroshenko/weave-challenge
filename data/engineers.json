@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-03-17T07:26:32Z",
+  "repo": "PostHog/posthog",
+  "window_days": 90,
+  "window_start": null,
+  "window_end": null,
+  "methodology": {
+    "weights": {
+      "shipping": 0.3,
+      "enablement": 0.3,
+      "complexity": 0.25,
+      "consistency": 0.15
+    },
+    "dimension_formulas": {
+      "shipping": "merged_prs + (issues_closed * 2) + code_reduction_bonus",
+      "enablement": "reviews_given * (1 + log(1 + avg_comments_per_review)) * response_time_factor",
+      "complexity": "avg_discussion_comments_per_pr + ((total_issue_age_days / max(1, issues_closed)) / 30)",
+      "consistency": "(active_weeks / 13) * 100"
+    },
+    "inclusion_rule": "Contributor must have at least 1 merged PR or at least 3 reviews in the 90-day window.",
+    "tie_breaker": "impact_score desc, shipping_score desc, login asc"
+  },
+  "leaders": [],
+  "leaderboards": {
+    "shipping": [],
+    "enablement": [],
+    "complexity": [],
+    "consistency": []
+  },
+  "contributors": []
+}
